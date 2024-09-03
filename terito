@@ -40,10 +40,10 @@
                     <a href="terito">Te Rito</a>                    
                 </li>
                 <li>
-                    <a href="tetakapu">Te Takapū</a>
+                    <a href="aboutpage">Te Takapū</a>
                 </li>
                 <li>
-                    <a href="rakau">Whakairo Rākau</a>
+                    <a href="carvingschools">Carving Schools</a>
                 </li>
                 <li>
                     <div class="dropdown">
@@ -65,6 +65,7 @@
         </div>
     </nav>
 
+<!--main content of page-->
 <body style="background-image: url('images/roomview.jpeg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
 
     <div class="container-header header">
@@ -106,6 +107,18 @@
         <span class="circleindicator" onclick="currentSlide(2)"></span>
         <span class="circleindicator" onclick="currentSlide(3)"></span>
       </div>
+
+    <div class="maintext">
+        <p>
+            Harakeke (Flax) is unique to New Zealand and is one of our most ancient plant species. 
+When our ancestors arrived to New Zealand they quickly discovered that flax could be woven to make clothing, housing materials and decorative tūrapa (panels) for their houses.
+Two native species of flax both come from the lily family. Harakeke (common flax) grows up to three meters high and has firm, long leaves with a fine muka fibre, ideal for all types of weaving. Wharariki (mountain flax) is found along coast lines, growing up to 1.6 meters with softer leaves and less fibre than harakeke.
+At the National Weaving school, students are taught the skills and traditions of a craft hundreds of years old. “I believe weaving can only be learnt the old way - by sitting, by listening, by touching and by doing,” says head of the weaving school, Edna Pahewa.
+As well as learning how to weave harakeke (flax) and other materials, students learn the stories and designs unique to each iwi (tribe), as well as the Māori protocols associated with weaving. These include planting according to the phases of the moon and reciting prayers of thanks for flax and trees used.
+Te Rito is named after the baby shoot that sits deep at the heart of the flax. That baby is protected by two outside shoots, the mother and father. Students learn never to touch the inner three shoots when cutting the flax as they are the nucleus - the family unit too precious to be broken. Without these shoots, the flax will lose its identity.
+Māori used various art forms to record their histories and stories, preserving them for future generations. Weaving patterns and styles were designed to symbolise particular stories and these were handed down within a family or tribe.
+
+        </p>
 
     
     </div>

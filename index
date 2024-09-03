@@ -40,10 +40,10 @@
                     <a href="terito">Te Rito</a>                    
                 </li>
                 <li>
-                    <a href="tetakapu">Te Takapū</a>
+                    <a href="aboutpage">Te Takapū</a>
                 </li>
                 <li>
-                    <a href="rakau">Whakairo Rākau</a>
+                    <a href="carvingschools">Carving Schools</a>
                 </li>
                 <li>
                     <div class="dropdown">
@@ -80,7 +80,7 @@
             <div class="grid-container">
                 <button class="grid-btn" style="background-image: url('images/flowers.jpg');" onclick="window.location.href='terito';">Te Rito <br>National Weaving School</button>
                 <button class="grid-btn" style="background-image: url('images/carvingtiki.jpg');" onclick="window.location.href='tetakapu';">Te Takapū <br>National Stone and Bone carving school</button>
-                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');"onclick="window.location.href='rakau';">Whakairo Rākau <br>National Wood carving school</button>
+                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');"onclick="window.location.href='carvingschools';">Te Wānanga Whakairo <br>National Carving School</button>
                 <button class="grid-btn" style="background-image: url('images/geothermalvalley.jpg');">Geothermal Valley</button>
                 <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');">About</button>
                 <button class="grid-btn" style="background-image: url('images/closeuppools.jpg');">Mud Pools</button>

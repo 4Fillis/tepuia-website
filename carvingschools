@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Puia</title>
+    
+    <!--fonts embed code from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--adds css-->
+    <link rel="stylesheet" href="cssstyling">
+    <!--logo icon (on tab)-->
+    <link rel="shortcut icon" href="images/tepuia-logo.svg" type="image/x-icon">
+
+</head>
+<body>
+    <!--top bar, navigation setup-->
+    <nav class="navbar">
+        <!--sets container class to prevent stretching when browser is extended-->
+        <div class="container">
+            <!--logo stuff in nav bar-->
+            <div class="logo">
+                <a href="index">
+                    <img src="images/tepuia-logo.svg" alt="logo">
+                </a>
+            </div>
+        
+        <div class="main-menu">
+            <!--list of pages in nav bar  -->
+            <ul>
+                <li>
+                    <a href="index">Home</a>
+                </li>
+                <li>
+                    <a href="terito">Te Rito</a>                    
+                </li>
+                <li>
+                    <a href="aboutpage">Te Takapū</a>
+                </li>
+                <li>
+                    <a href="carvingschools">Carving Schools</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Land
+                            <span class="icons drop-icon">
+                                <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                            </span>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Geothermal Valley</a>
+                          <a href="#">Mud Pools</a>
+                          <a href="#">Geysers</a>
+                        </div>
+                      </div>
+                      
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!--main content of page-->
+<body style="background-image: url('images/mastercarver.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
+    <div class="container-header header">
+        <h1>Carving</h1>
+        <h2>National Carving School</h2>
+    </div>
+    <div class="quote">
+        <h4>"Everyone has a reason in life. This was my reason" -Clive Fugill</h4>
+    </div>
+
+    <div class="maintext">
+        <p> In 1967, the first intake to the National Carving School began the task of learning the disciplines of their Māori ancestors. Among those students was Clive Fugill, the man who would become master carver of the institute today.
+        “I’ll never forget that first day,” says Clive, “Our master carver, Hone Taiapa, looked at us all and said, “you are here to learn the art to pass it on to generations. Keep it alive for we could lose our identity.” It was exciting to be playing such an important role to save Māori art,” says Clive, “everyone has a reason in life. This was my reason. And that’s why I’m still here over 40 years later. If we lose our arts and crafts we lose our identity.”
+        Today fulltime carving students study for three years at the national carving school, under the guidance of those, such as Clive Fugill and James Rickard, master carvers at Te Puia who were once institute carving students themselves.
+        The protruding tongue, as used in the haka (war dance), is intended as a symbol of defiance, determination and strength, however in many carvings it can also symbolize the oral nature in which information was passed on from generation to generation.
+        Here at Te Puia we offer you the chance to take away traditional Māori carvings; beautiful handcrafted pieces made at our National Carving School. Look for the Te Puia Official Mark of Authenticity. We also accept carving commissions.
+        </p>        
+    </div>
+
+    <div class="secondtext">
+        <h3>Wooden hand clubs</h3>
+        <p>
+            Before Europeans and European weapons arrived in Aotearoa, Māori warfare mainly involved hand-to-hand combat. Warriors used many different hand weapons, including taiaha (fighting staffs), pouwhenua (pointed staffs), tewhatewha (axe-like staffs), tao (short spears), huata (long spears) and patu (clubs). The long weapons were carried, and the small clubs were often tucked into a belt. Special weapons were sometimes given names and passed down through generations.
+            Wars could be fought over land and resources, but also as utu (revenge) or to increase mana (prestige). There were many traditions and rules to be followed during battles in earlier times. War parties (taua) could range in size from a small group to a few hundred people. Most battles took place in the summer months after the harvesting of crops was completed. The element of surprise was important, so raids often happened at dawn.
+            Though there were deaths and injuries as a result of skirmishes in pre-European times, the numbers were very small in comparison to the slaughter that occurred when muskets became available.
+
+        </p>
+    </div>
+</body>

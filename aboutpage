@@ -39,10 +39,10 @@
                     <a href="terito">Te Rito</a>                    
                 </li>
                 <li>
-                    <a href="tetakapu">Te Takapū</a>
+                    <a href="aboutpage">Te Takapū</a>
                 </li>
                 <li>
-                    <a href="rakau">Whakairo Rākau</a>
+                    <a href="carvingschools">Carving Schools</a>
                 </li>
                 <li>
                     <div class="dropdown">
@@ -63,12 +63,17 @@
         </div>
         </div>
     </nav>
-
-    <body style="background-image: url('images/mastercarver.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
+    <!--main content of page-->
+    <body style="background-image: url('images/outsideview.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
 
         <div class="container-header header">
-            <h1>Whakairo Rākau</h1>
-            <h2>National School of Wood Carving</h2>
+            <h1>About</h1>
+        </div>
+    
+        <div class="maintext">
+            <p> 
+                paragraph of information?
+            </p>        
         </div>
     </body>
     </html>
