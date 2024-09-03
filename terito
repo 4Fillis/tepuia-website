@@ -77,7 +77,7 @@
     <div class="slideshow-container">
 
         <!-- Full-width images with number and caption text -->
-        <div class="Slideshow fade">
+        <div class="slideshow fade">
           <div class="numbertext">1 / 3</div>
           <img src="images/shouldercloak.jpg" style="width:100%">
           <div class="text">Kākahu</div>
@@ -92,7 +92,7 @@
         <div class="slideshow fade">
           <div class="numbertext">3 / 3</div>
           <img src="images/verysnazzybags.jpg" style="width:100%">
-          <div class="Kete (bags)">Woven Kete</div>
+          <div class="text">Woven Kete</div>
         </div>
       
         <!-- Next and previous buttons -->
@@ -102,11 +102,11 @@
       
       <!-- The dots/circles -->
       <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="circleindicator" onclick="currentSlide(1)"></span>
+        <span class="circleindicator" onclick="currentSlide(2)"></span>
+        <span class="circleindicator" onclick="currentSlide(3)"></span>
       </div>
     
-
+<script src="mjava"></script>
 </body>
 </html>

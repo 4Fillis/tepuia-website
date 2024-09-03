@@ -1,3 +1,4 @@
+//resets slideindex to 1
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -6,23 +7,24 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// thumbnail image controls
+// shows nth image of sequence
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+//function to change slide & dot indicator
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("slideshow");
-  let dots = document.getElementsByClassName("dot");
+  let circleindicators = document.getElementsByClassName("circleindicator");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+  for (i = 0; i < circleindicators.length; i++) {
+    circleindicators[i].className = circleindicators[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  circleindicators[slideIndex-1].className += " active";
 }
