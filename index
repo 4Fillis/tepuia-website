@@ -43,7 +43,7 @@
                     <a href="tetakapu">Te Takapū</a>
                 </li>
                 <li>
-                    <a href="#">Whakairo Rākau</a>
+                    <a href="rakau">Whakairo Rākau</a>
                 </li>
                 <li>
                     <div class="dropdown">
@@ -79,11 +79,12 @@
         <div class="content">
             <div class="grid-container">
                 <button class="grid-btn" style="background-image: url('images/flowers.jpg');" onclick="window.location.href='terito';">Te Rito <br>National Weaving School</button>
-                <button class="grid-btn" style="background-image: url('images/carvingtiki.jpg');">Te Takapū <br>National Stone and Bone carving school</button>
-                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');">Whakairo Rākau <br>National Wood carving school</button>
+                <button class="grid-btn" style="background-image: url('images/carvingtiki.jpg');" onclick="window.location.href='tetakapu';">Te Takapū <br>National Stone and Bone carving school</button>
+                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');"onclick="window.location.href='rakau';">Whakairo Rākau <br>National Wood carving school</button>
                 <button class="grid-btn" style="background-image: url('images/geothermalvalley.jpg');">Geothermal Valley</button>
+                <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');">About</button>
                 <button class="grid-btn" style="background-image: url('images/closeuppools.jpg');">Mud Pools</button>
-                <button class="grid-btn" style="background-image: url('images/rocks2.jpg');">Geysers</button>
+                
             </div>
         </div>
     </section>

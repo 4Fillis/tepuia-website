@@ -19,7 +19,6 @@
 
 </head>
 <body>
-    <!--top bar, navigation setup-->
     <nav class="navbar">
         <!--sets container class to prevent stretching when browser is extended-->
         <div class="container">
@@ -65,51 +64,11 @@
         </div>
     </nav>
 
-<body style="background-image: url('images/roomview.jpeg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
+    <body style="background-image: url('images/mastercarver.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
 
-    <div class="container-header header">
-        <h1>Te Rito</h1>
-        <h2>National School of Weaving</h2>
-    </div>
-
-
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="slideshow fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="images/shouldercloak.jpg" style="width:100%">
-          <div class="text">Kākahu</div>
+        <div class="container-header header">
+            <h1>Whakairo Rākau</h1>
+            <h2>National School of Wood Carving</h2>
         </div>
-      <!--image number based off images in order-->
-        <div class="slideshow fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="images/coolredweaving.jpg" style="width:100%">
-          <div class="text">Piupiu</div>
-        </div>
-      
-        <div class="slideshow fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="images/verysnazzybags.jpg" style="width:100%">
-          <div class="text">Woven Kete</div>
-        </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-    
-      
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="circleindicator" onclick="currentSlide(1)"></span>
-        <span class="circleindicator" onclick="currentSlide(2)"></span>
-        <span class="circleindicator" onclick="currentSlide(3)"></span>
-      </div>
-
-    
-    </div>
-    
-<script src="mjava"></script>
-</body>
-</html>
+    </body>
+    </html>

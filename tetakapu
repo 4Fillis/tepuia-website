@@ -24,7 +24,7 @@
     <div class="container">
         <!--logo stuff in nav bar-->
         <div class="logo">
-            <a href="index.html">
+            <a href="index">
                 <img src="images/tepuia-logo.svg" alt="logo">
             </a>
         </div>
@@ -42,7 +42,7 @@
                 <a href="tetakapu">Te Takapū</a>
             </li>
             <li>
-                <a href="#">Whakairo Rākau</a>
+                <a href="rakau">Whakairo Rākau</a>
             </li>
             <li>
                 <div class="dropdown">
@@ -64,7 +64,7 @@
     </div>
 </nav>
 
-<body style="background-image: url('images/carvingtiki.jpg');">
+<body style="background-image: url('images/carvingtiki.jpg'); background-size: cover; background-position: top; background-repeat: no-repeat;">
 
     <div class="container-header header">
         <h1>Te Takapū</h1>
