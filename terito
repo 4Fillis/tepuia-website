@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Puia</title>
+    
+    <!--fonts embed code from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--adds css-->
+    <link rel="stylesheet" href="cssstyling">
+    <!--logo icon (on tab)-->
+    <link rel="shortcut icon" href="images/tepuia-logo.svg" type="image/x-icon">
+
+</head>
+<body>
+    <!--top bar, navigation setup-->
+    <nav class="navbar">
+        <!--sets container class to prevent stretching when browser is extended-->
+        <div class="container">
+            <!--logo stuff in nav bar-->
+            <div class="logo">
+                <a href="index">
+                    <img src="images/tepuia-logo.svg" alt="logo">
+                </a>
+            </div>
+        
+        <div class="main-menu">
+            <!--list of pages in nav bar  -->
+            <ul>
+                <li>
+                    <a href="index">Home</a>
+                </li>
+                <li>
+                    <a href="terito">Te Rito</a>                    
+                </li>
+                <li>
+                    <a href="tetakapu">Te Takapū</a>
+                </li>
+                <li>
+                    <a href="#">Whakairo Rākau</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Land
+                            <span class="icons drop-icon">
+                                <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                            </span>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Geothermal Valley</a>
+                          <a href="#">Mud Pools</a>
+                          <a href="#">Geysers</a>
+                        </div>
+                      </div>
+                      
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+<body style="background-image: url('images/roomview.jpeg');">
+
+    <div class="container-header header">
+        <h1>Te Rito</h1>
+        <h2>National School of Weaving</h2>
+    </div>
+
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="Slideshow fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/shouldercloak.jpg" style="width:100%">
+          <div class="text">Kākahu</div>
+        </div>
+      
+        <div class="slideshow fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/coolredweaving.jpg" style="width:100%">
+          <div class="text">Piupiu</div>
+        </div>
+      
+        <div class="slideshow fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/verysnazzybags.jpg" style="width:100%">
+          <div class="Kete (bags)">Woven Kete</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,318 @@
+* { /*resets ensures padding&margins dont interfere
+    with images and resets any added by default */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+/*sets colors as variable (makes easy to do same & change themes*/
+:root {
+    --bright-red: #e20c0c;
+    --darker-red: #940909;
+    --shaded-red: #a02020;
+    --mid-red: #b82626;
+    --lighter-brown: #9b6b2c;
+    --darker-brown: #612e04;
+    --gray-color: #e6e6e6;
+    --white: #fff;
+}
+
+body{ /* set background color and font*/
+    background: var(--darker-red);
+    font-family: 'eb-garamond';
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+a{ /* set color and remove text styling */
+    text-decoration: none;
+    color: #ffffff
+}
+
+ul{ /* keep list unstyled */
+    list-style: none;
+}
+
+img{ /* ensure images dont stretch */
+    max-height: 100%;
+    max-width: 100%;
+}
+/*navigation bar styling*/
+.navbar{
+    background: var(--darker-red);
+    padding: 20px;
+}
+/* does spacing for the nav bar*/
+.navbar .container{
+    display: flex;
+    content: space-between;
+    align-items: center;
+}
+
+.dropdown{
+    margin-top: 6px;
+}
+
+.logo{
+    margin-left: 10px;
+}
+/*nav bar for non-mobile goes horizonal (mainmenu)*/
+.navbar .main-menu ul{
+    display: flex;
+    cursor:grab;
+    
+}
+/*puts spacing and boldens transition is to slow font color change
+below is hover set up (change color wheh hovering)*/
+.navbar ul li a {
+    padding: 20px 24px;
+    display: block;
+    font-weight: 550;
+    transition: 0.5s;
+    
+}
+.navbar ul li a:hover {
+    color: black;
+    cursor:grab;
+}
+/*adds spacing in dropdown menu & home label*/
+.navbar ul li:last-child a {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navbar ul li a i {
+    margin-right: 11px;
+    align-items: center;
+}
+
+.navbar ul li:first-child a {
+    margin-left: 15px;
+}
+
+/*dropdown menu styling*/
+.dropbtn {
+    background-color: var(--darker-red);
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    font-family: 'Eb-Garamond';
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--mid-red);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+/*for writing*/
+.dropdown-content a {
+    color: var(white);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/*hovering on dropdown effects*/
+.dropdown-content a:hover {background-color: var(--shaded-red);}
+
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: var(--darker-red);}
+
+/*hover*/
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+ul li ul.dropdown li{
+    display: flex;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+/*drop icon positioning + rotation*/
+.drop-icon{
+    display:inline;
+    font-size: 20px;
+    right: -10px;
+    position: relative;
+    transform: rotate(50deg);
+    transition: 0.5s ease-in-out;
+}
+.drop-icon:hover {
+    transform: rotate(90deg);
+}
+
+/*video background styling*/
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+  }
+
+/*Utility classes - text*/
+.header{
+    text-align: left;
+    color: #fff;
+    font-size: 70px;
+    font-family:'lobster', 'Pacifico';
+}
+
+.container-header{
+    width: 700px;
+    height: 250px;
+    border: 10px 70% 20px;
+    border-radius: 20px;
+    background-color: rgba(126, 10, 10, 0.7);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    text-align: left;
+    align-items: center;
+}
+
+.header h1{
+    margin-top: -60px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.header h2{
+    font-size: 40px;
+    text-align: right;
+    margin-top: -40px;
+}
+/*big buttons container class*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+
+.grid-btn {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    cursor: grab;
+    border: black;
+    border-radius: 20px;
+    padding-left: 10px;
+    text-align: left;
+    color: #fff;
+    margin-left: 0px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 650;
+}
+
+/*styling for te rito slideshow */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+    align-items:start;
+    margin-top: 100px;
+  }
+  
+  /* Hide the images by default */
+  .slideshow {
+    display: none;
+  }
+  
+  /* forward/back buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "forward btn" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* add black background and slightly transparent when hovering*/
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Captions */
+  .text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    margin-top: -30px;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #a71313;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #770d0d;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
