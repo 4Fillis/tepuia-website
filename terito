@@ -8,7 +8,7 @@
     <!--fonts embed code from google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap&family=Poppins&display=swap" rel="stylesheet">
 
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -116,7 +116,7 @@
         </div>
     </div>
 
-    <div class="container-wide">
+    <div class="container-wide movedown">
         <div class="maintext">
             <p>
             Harakeke (Flax) is unique to New Zealand and is one of our most ancient plant species. At the National Weaving school, students are taught the skills and traditions of a craft hundreds of years old.<br><br>
@@ -131,7 +131,6 @@
 
         </div>
     </div>
-
     
 <script src="mjava"></script>
 </body>

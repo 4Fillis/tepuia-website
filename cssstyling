@@ -199,7 +199,7 @@ h4{
 
 .maintext{
     font-size: 30px;
-    font-family: 'Eb Garamond', monospace;
+    font-family: 'Poppins', monospace;
     padding: 20px;
     padding-top: 100px;
     margin: 20px;
@@ -221,6 +221,10 @@ p{
     padding: 10px;
     margin: 10px;
 }
+.movedown{
+    top: 520px;
+    z-index:1;
+}
 
 /* containers*/
 .container-header{
@@ -238,7 +242,7 @@ p{
 .container-wide{
     width: 100%;
     height: auto;
-    margin-top: 520px;
+    position: relative;
     background-color: var(--darker-red);
 }
 
@@ -250,8 +254,9 @@ p{
     right: 50px;
     text-align: right;
     padding-left: 40%;
-}
-/*big buttons container class*/
+}`
+
+/*mainpg buttons container class*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 400px);
@@ -279,6 +284,34 @@ p{
     margin-left: 0px;
     
 }
+/*images styling*/
+/*images*/
+.inline-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+  
+.inline-image {
+    width: 400px; 
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 0px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+  
+.inline-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  
 
 /*styling for te rito slideshow */
 * {box-sizing:border-box}
@@ -292,6 +325,7 @@ p{
     margin: auto;
     align-items:start;
     margin-top: 20px;
+    z-index: 2;
   }
   
   /* Hide the images by default */

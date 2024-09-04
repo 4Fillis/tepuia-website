@@ -8,7 +8,7 @@
     <!--fonts embed code from google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap&family=Poppins&display=swap" rel="stylesheet">
 
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -77,10 +77,16 @@
             <span style="background-color: rgba(255, 255, 255, 0.466);">"Everyone has a reason in life. This was my reason"<br> -Clive Fugill</span>
         </div>
     </div>
+    <div class="inline-image-container">
+        <div class="inline-image"><img src="images/fired-woodcarving.jpeg" alt="fired woodcarving"></div>
+        <div class="inline-image"><img src="images/carved-pare.jpg" alt="carved pare"></div>
+        <div class="inline-image"><img src="images/skystatue.jpg" alt="heru carving"></div>
+        <div class="inline-image"><img src="images/lg-carving.jpg" alt="carving"></div>
 
     <div class="container-wide">
         <div class="maintext">
             <p>
+                Summary:<br>
                 In 1967, the first intake to the National Carving School began the task of learning the disciplines of their Māori ancestors. Among those students was Clive Fugill, the man who would become master carver of the institute today.
                 “I’ll never forget that first day,” says Clive, “Our master carver, Hone Taiapa, looked at us all and said, “you are here to learn the art to pass it on to generations. Keep it alive for we could lose our identity.” It was exciting to be playing such an important role to save Māori art,” says Clive, “everyone has a reason in life. This was my reason. And that’s why I’m still here over 40 years later. If we lose our arts and crafts we lose our identity.”
                 Today fulltime carving students study for three years at the national carving school, under the guidance of those, such as Clive Fugill and James Rickard, master carvers at Te Puia who were once institute carving students themselves.
