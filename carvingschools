@@ -71,26 +71,30 @@
         <h1>Carving</h1>
         <h2>National Carving School</h2>
     </div>
-    <div class="quote">
-        <h4>"Everyone has a reason in life. This was my reason" -Clive Fugill</h4>
+
+    <div class="container-quote">
+        <div class="quote-text">
+            <span style="background-color: rgba(255, 255, 255, 0.466);">"Everyone has a reason in life. This was my reason"<br> -Clive Fugill</span>
+        </div>
     </div>
 
-    <div class="maintext">
-        <p> In 1967, the first intake to the National Carving School began the task of learning the disciplines of their Māori ancestors. Among those students was Clive Fugill, the man who would become master carver of the institute today.
-        “I’ll never forget that first day,” says Clive, “Our master carver, Hone Taiapa, looked at us all and said, “you are here to learn the art to pass it on to generations. Keep it alive for we could lose our identity.” It was exciting to be playing such an important role to save Māori art,” says Clive, “everyone has a reason in life. This was my reason. And that’s why I’m still here over 40 years later. If we lose our arts and crafts we lose our identity.”
-        Today fulltime carving students study for three years at the national carving school, under the guidance of those, such as Clive Fugill and James Rickard, master carvers at Te Puia who were once institute carving students themselves.
-        The protruding tongue, as used in the haka (war dance), is intended as a symbol of defiance, determination and strength, however in many carvings it can also symbolize the oral nature in which information was passed on from generation to generation.
-        Here at Te Puia we offer you the chance to take away traditional Māori carvings; beautiful handcrafted pieces made at our National Carving School. Look for the Te Puia Official Mark of Authenticity. We also accept carving commissions.
-        </p>        
+    <div class="container-wide">
+        <div class="maintext">
+            <p>
+                In 1967, the first intake to the National Carving School began the task of learning the disciplines of their Māori ancestors. Among those students was Clive Fugill, the man who would become master carver of the institute today.
+                “I’ll never forget that first day,” says Clive, “Our master carver, Hone Taiapa, looked at us all and said, “you are here to learn the art to pass it on to generations. Keep it alive for we could lose our identity.” It was exciting to be playing such an important role to save Māori art,” says Clive, “everyone has a reason in life. This was my reason. And that’s why I’m still here over 40 years later. If we lose our arts and crafts we lose our identity.”
+                Today fulltime carving students study for three years at the national carving school, under the guidance of those, such as Clive Fugill and James Rickard, master carvers at Te Puia who were once institute carving students themselves.
+                The protruding tongue, as used in the haka (war dance), is intended as a symbol of defiance, determination and strength, however in many carvings it can also symbolize the oral nature in which information was passed on from generation to generation.
+                Here at Te Puia we offer you the chance to take away traditional Māori carvings; beautiful handcrafted pieces made at our National Carving School. Look for the Te Puia Official Mark of Authenticity. We also accept carving commissions.
+                <br><br>
+                Wooden Hand clubs<br>
+                Before Europeans and European weapons arrived in Aotearoa, Māori warfare mainly involved hand-to-hand combat. Warriors used many different hand weapons, including taiaha (fighting staffs), pouwhenua (pointed staffs), tewhatewha (axe-like staffs), tao (short spears), huata (long spears) and patu (clubs). The long weapons were carried, and the small clubs were often tucked into a belt. Special weapons were sometimes given names and passed down through generations.
+                Wars could be fought over land and resources, but also as utu (revenge) or to increase mana (prestige). There were many traditions and rules to be followed during battles in earlier times. War parties (taua) could range in size from a small group to a few hundred people. Most battles took place in the summer months after the harvesting of crops was completed. The element of surprise was important, so raids often happened at dawn.
+                Though there were deaths and injuries as a result of skirmishes in pre-European times, the numbers were very small in comparison to the slaughter that occurred when muskets became available.
+
+            </p>
+
+        </div>
     </div>
 
-    <div class="secondtext">
-        <h3>Wooden hand clubs</h3>
-        <p>
-            Before Europeans and European weapons arrived in Aotearoa, Māori warfare mainly involved hand-to-hand combat. Warriors used many different hand weapons, including taiaha (fighting staffs), pouwhenua (pointed staffs), tewhatewha (axe-like staffs), tao (short spears), huata (long spears) and patu (clubs). The long weapons were carried, and the small clubs were often tucked into a belt. Special weapons were sometimes given names and passed down through generations.
-            Wars could be fought over land and resources, but also as utu (revenge) or to increase mana (prestige). There were many traditions and rules to be followed during battles in earlier times. War parties (taua) could range in size from a small group to a few hundred people. Most battles took place in the summer months after the harvesting of crops was completed. The element of surprise was important, so raids often happened at dawn.
-            Though there were deaths and injuries as a result of skirmishes in pre-European times, the numbers were very small in comparison to the slaughter that occurred when muskets became available.
-
-        </p>
-    </div>
 </body>

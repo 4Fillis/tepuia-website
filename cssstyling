@@ -198,7 +198,7 @@ h4{
 }
 
 .maintext{
-    font-size: 30spx;
+    font-size: 30px;
     font-family: 'Eb Garamond', monospace;
     padding: 20px;
     padding-top: 100px;
