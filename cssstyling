@@ -13,7 +13,7 @@
     --mid-red: #b82626;
     --lighter-brown: #9b6b2c;
     --darker-brown: #612e04;
-    --gray-color: #e6e6e6;
+    --gray-color: #818181;
     --white: #fff;
 }
 
@@ -187,9 +187,32 @@ video {
 
 h3{
     color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
 }
 h4{
     color: white;
+}
+
+.maintext{
+    font-size: 30spx;
+    font-family: 'Eb Garamond', monospace;
+    padding: 20px;
+    padding-top: 100px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.quote-text{
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 100px;
+    color: var(--darker-red);
+    margin-top: 50px;
 }
 p{
     color:white;
@@ -211,6 +234,22 @@ p{
     margin-top: 30px;
     text-align: left;
     align-items: center;
+}
+.container-wide{
+    width: 100%;
+    height: auto;
+    margin-top: 520px;
+    background-color: var(--darker-red);
+}
+
+.container-quote{
+    width: 95%;
+    height: auto;
+    position: absolute;
+    top: 128px;
+    right: 50px;
+    text-align: right;
+    padding-left: 40%;
 }
 /*big buttons container class*/
 .grid-container {

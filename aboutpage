@@ -39,7 +39,7 @@
                     <a href="terito">Te Rito</a>                    
                 </li>
                 <li>
-                    <a href="aboutpage">Te Takapū</a>
+                    <a href="aboutpage">About</a>
                 </li>
                 <li>
                     <a href="carvingschools">Carving Schools</a>
@@ -71,9 +71,17 @@
         </div>
     
         <div class="maintext">
-            <p> 
-                paragraph of information?
-            </p>        
+            <ul>
+                <li>
+                    Sharing Taonga
+                </li>
+                <li>
+                    Our Values
+                </li>
+                <li>
+                    Health and Safety
+                </li>
+            </ul>
         </div>
     </body>
     </html>
