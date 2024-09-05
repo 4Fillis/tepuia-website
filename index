@@ -53,7 +53,7 @@
                             </span>
                         </button>
                         <div class="dropdown-content">
-                          <a href="#">Geothermal Valley</a>
+                          <a href="geothermal">Geothermal Valley</a>
                           <a href="#">Mud Pools</a>
                           <a href="#">Geysers</a>
                         </div>
