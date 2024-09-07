@@ -246,6 +246,17 @@ video {
     background-color: var(--darker-red);
 }
 
+.container-hlf{
+    width: 60%;
+    height: auto;
+    position: relative;
+    background-color: var(--darker-red);
+    margin-left: 38%;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+
 .container-quote{
     width: 95%;
     height: auto;
