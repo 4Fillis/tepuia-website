@@ -53,7 +53,7 @@
                             </span>
                         </button>
                         <div class="dropdown-content">
-                          <a href="#">Geothermal Valley</a>
+                          <a href="geothermal">Geothermal Valley</a>
                           <a href="#">Mud Pools</a>
                           <a href="#">Geysers</a>
                         </div>
@@ -66,46 +66,47 @@
     </nav>
 
     <!--main content of page-->
-<body style="background-image: url('images/ferns.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
-    <div class="container-header header">
-        <h1>Land</h1>
-        <h2>Geothermal Valley</h2>
-    </div>
-    <!---->
+    <body style="background-image: url('images/ferns.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
+        <div class="container-header header">
+            <h1>Land</h1>
+            <h2>Geothermal Valley</h2>
+        </div>
+    <!--stats in top corner (highlighted)-->
     <div class="container-stat">
         <div class="stat-text">
             <span style="background-color: rgba(255, 255, 255, 0.466);">
                 <i class="fa-regular fa-chess-queen"></i>Found in the 70 hectare Te Whakarewarewa geothermal valley in Rotorua:<br>
-                <p><i class="fa-solid fa-chess-queen"></i>65 geyser vents (all named)<br></p>
-                <p><i class="fa-solid fa-chess-queen"></i>Over 500 pools (all named)<br></p>
+                <i class="fa-solid fa-chess-queen"></i>65 geyser vents (all named)<br>
+                <i class="fa-solid fa-chess-queen"></i>Over 500 pools (all named)<br>
             </span>
         </div>
     </div>
     
-    <div class="inline-image-container">
-        <div class="inline-image"><img src="images/ferns.jpg" alt="ferns view"></div>
-        <div class="inline-image"><img src="images/geothermalvalley.jpg" alt="valley view"></div>
-        <div class="inline-image"><img src="images/geyser.jpeg" alt="geyser"></div>
-        <div class="inline-image"><img src="images/closeuppools.jpg" alt="mud pools"></div>
-
-    <div class="container-wide">
+    <div class="container-hlf">
         <div class="maintext">
             <p>
-                Summary:<br>
-                In 1967, the first intake to the National Carving School began the task of learning the disciplines of their Māori ancestors. Among those students was Clive Fugill, the man who would become master carver of the institute today.
-                “I’ll never forget that first day,” says Clive, “Our master carver, Hone Taiapa, looked at us all and said, “you are here to learn the art to pass it on to generations. Keep it alive for we could lose our identity.” It was exciting to be playing such an important role to save Māori art,” says Clive, “everyone has a reason in life. This was my reason. And that’s why I’m still here over 40 years later. If we lose our arts and crafts we lose our identity.”
-                Today fulltime carving students study for three years at the national carving school, under the guidance of those, such as Clive Fugill and James Rickard, master carvers at Te Puia who were once institute carving students themselves.
-                The protruding tongue, as used in the haka (war dance), is intended as a symbol of defiance, determination and strength, however in many carvings it can also symbolize the oral nature in which information was passed on from generation to generation.
-                Here at Te Puia we offer you the chance to take away traditional Māori carvings; beautiful handcrafted pieces made at our National Carving School. Look for the Te Puia Official Mark of Authenticity. We also accept carving commissions.
+                <h3>Maori land story:<br></h3>
+                Our traditional Maori explanation of Te Whakarewarewa Geothermal Valley states that this place was one of the area’s ‘Te Pupu’ and ‘Te Hoata’, the Goddesses of Fire, emerged from the earth’s core while trying to find their brother Ngātoro-i-rangi, who was stranded on Mount Tongariro. As they rose to the surface looking for their brother, they left part of the fire they carried, creating geysers, hot springs and mud pools, creating the geothermal activity that remains today.
                 <br><br>
-                Wooden Hand clubs<br>
-                Before Europeans and European weapons arrived in Aotearoa, Māori warfare mainly involved hand-to-hand combat. Warriors used many different hand weapons, including taiaha (fighting staffs), pouwhenua (pointed staffs), tewhatewha (axe-like staffs), tao (short spears), huata (long spears) and patu (clubs). The long weapons were carried, and the small clubs were often tucked into a belt. Special weapons were sometimes given names and passed down through generations.
-                Wars could be fought over land and resources, but also as utu (revenge) or to increase mana (prestige). There were many traditions and rules to be followed during battles in earlier times. War parties (taua) could range in size from a small group to a few hundred people. Most battles took place in the summer months after the harvesting of crops was completed. The element of surprise was important, so raids often happened at dawn.
-                Though there were deaths and injuries as a result of skirmishes in pre-European times, the numbers were very small in comparison to the slaughter that occurred when muskets became available.
-
+                <h3>Pohutu Geysey</h3>
+                Our main geyser is called “Pohutu” which means “Big splash” and erupts up to heights of 30 meters. Pohutu is semi-predictable, as she plays 15-20 minutes after another of our active geysers. According to Maori culture, geysers are viewed as gifts from the gods
+                <br>To the left of Pohutu (when viewing from the bridge) is the “Prince of Wales Feathers” Geyser – named after Prince Edward Albert visited here in the 1900’s. It was traditionally named the “Tohu” or sign as it usually plays 10 mins before and then simultaneously with Pohutu and reaches heights of up to seven metres (almost 23 feet).
+                <br>The “Kererū” Geyser erupts every few days from the blackened crater closest to Puarenga Stream. The fan-shaped jet can reach heights of up to 15 metres (just over 49 feet). It is named after the New Zealand Pigeon.
+                <br>Geysers act like a giant pressure cooker on earth, shooting boiling water and steam into the air.
+                <br>All geysers have three components; an intensive heat source, a constant supply of water and an underground plumbing system.
+                <br>As rainfall fills the intricate plumbing system below the earth’s surface, molten rock rapidly heats the water.
+                <br>The water is under significant pressure causing the boiling point to be well over 125 degrees Celsius.
+                <br>As pockets of water become turbulent, the pressure is relieved by violently shooting steam and water into the air with tremendous force.
             </p>
 
         </div>
+    </div>
+    <!---cascading images, vertical-->
+    <div class="vert-container moveup">
+        <div class="vert-image" id="image1"><img src="images/ferns.jpg" alt="ferns view"></div>
+        <div class="vert-image" id="image2"><img src="images/geothermalvalley.jpg" alt="valley view"></div>
+        <div class="vert-image" id="image3"><img src="images/geyser.jpeg" alt="geyser"></div>
+        <div class="vert-image" id="image4"><img src="images/closeuppools.jpg" alt="mud pools"></div>
     </div>
 
 </body>

@@ -41,11 +41,12 @@ img{ /* ensure images dont stretch */
 .navbar{
     background: var(--darker-red);
     padding: 20px;
+    text-align: left;
 }
 /* does spacing for the nav bar*/
 .navbar .container{
     display: flex;
-    content: space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -59,17 +60,19 @@ img{ /* ensure images dont stretch */
 /*nav bar for non-mobile goes horizonal (mainmenu)*/
 .navbar .main-menu ul{
     display: flex;
-    cursor:grab;
-    
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    cursor: grab;
 }
 /*puts spacing and boldens transition is to slow font color change
 below is hover set up (change color wheh hovering)*/
+
 .navbar ul li a {
     padding: 20px 24px;
     display: block;
     font-weight: 550;
     transition: 0.5s;
-    
 }
 .navbar ul li a:hover {
     color: black;
@@ -191,8 +194,7 @@ video {
     color: white;
     font-family:'monospace';
     padding: 20px;
-    padding-top: 100px;
-    margin: 20px;
+    margin: 25px;
     margin-top: 0px;
 }
 
@@ -225,6 +227,10 @@ video {
     top: 520px;
     z-index:1;
 }
+.moveup{
+    top: 450px;
+    z-index:1;
+}
 
 /* containers*/
 .container-header{
@@ -242,6 +248,7 @@ video {
 .container-wide{
     width: 100%;
     height: auto;
+    padding-top: 100px;
     position: relative;
     background-color: var(--darker-red);
 }
@@ -252,9 +259,9 @@ video {
     position: relative;
     background-color: var(--darker-red);
     margin-left: 38%;
+    margin-top: 100px;
     border-radius: 20px;
     padding-top: 10px;
-    margin-top: 100px;
 }
 
 .container-quote{
@@ -330,6 +337,43 @@ video {
     width: 100%;
     height: auto;
     display: block;
+}
+
+
+/*vertical cascading container images*/
+.vert-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 20px;
+    margin-left: 70px;
+
+    
+}
+.vert-image{
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid white;
+    object-fit: cover;
+    overflow: hidden;
+}
+#image1{
+    margin: 10px;
+    margin-left: 10px;
+}
+#image2{
+    margin: 10px;
+    margin-left: 50px;
+}
+#image3{
+    margin: 10px;
+    margin-left: 80px;
+}
+#image4{
+    margin: 10px;
+    margin-left: 50px;
 }
   
 
