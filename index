@@ -52,7 +52,7 @@
                         </button>
                         <div class="dropdown-content">
                           <a href="geothermal">Geothermal Valley</a>
-                          <a href="#">Mud Pools</a>
+
                           <a href="kiwiconservation">Kiwi Conservation</a>
                           <a href="experiances">Experiances</a>
                         </div>
@@ -69,6 +69,7 @@
             <source src="images/editedvid.mp4" type="video/mp4">
           </video>
         </div>
+        <!--page title-->
         <div class="container-header">
             <div class="header">
                 <h1>Te Puia</h1>
@@ -81,7 +82,7 @@
                 <button class="grid-btn" style="background-image: url('images/flowers.jpg');" onclick="window.location.href='terito';">Te Rito <br>National Weaving School</button>
                 <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');"onclick="window.location.href='carvingschools';">Te Wānanga Whakairo <br>National Carving School</button>
                 <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');"onclick="window.location.href='experiances';">Experiances</button>
-                <button class="grid-btn" style="background-image: url('images/geothermalvalley.jpg');"onclick="window.location.href='geothermal';">Geothermal Valley<br>Valley, geysers, and mud pools</button>
+                <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg');"onclick="window.location.href='geothermal';">Geothermal Valley<br>Valley, geysers, and mud pools</button>
                 <button class="grid-btn" style="background-image: url('images/kiwi.jpeg');"onclick="window.location.href='kiwiconservation';">Kiwi conservation</button>
                 
             </div>

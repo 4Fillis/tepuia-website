@@ -18,51 +18,70 @@
     <link rel="shortcut icon" href="images/tepuia-logo.svg" type="image/x-icon">
 
 </head>
-<body>
+<body><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Te Puia</title>
+        
+        <!--fonts embed code from google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap&family=Poppins&display=swap" rel="stylesheet">
+    
+        <!--fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--adds css-->
+        <link rel="stylesheet" href="cssstyling">
+        <!--logo icon (on tab)-->
+        <link rel="shortcut icon" href="images/tepuia-logo.svg" type="image/x-icon">
+    
+    </head>
+    
+    <!--top bar, navigation setup-->
     <nav class="navbar">
         <!--sets container class to prevent stretching when browser is extended-->
-        <div class="container">
-            <!--logo stuff in nav bar-->
-            <div class="logo">
-                <a href="index">
-                    <img src="images/tepuia-logo.svg" alt="logo">
-                </a>
-            </div>
-        
         <div class="main-menu">
             <!--list of pages in nav bar  -->
             <ul>
+                <li class="logo-container logo">
+                    <a href="index">
+                        <img src="images/tepuia-logo.svg" alt="logo">
+                    </a>
+                </li>
                 <li>
                     <a href="index">Home</a>
+                </li>                <li>
+                    <a href="aboutpage">About</a>
                 </li>
                 <li>
                     <a href="terito">Te Rito</a>                    
-                </li>
-                <li>
-                    <a href="aboutpage">About</a>
-                </li>
+                </li>                
                 <li>
                     <a href="carvingschools">Carving Schools</a>
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="dropbtn">Land
+                        <button class="dropbtn">More Info
                             <span class="icons drop-icon">
                                 <i class="fa-solid fa-face-kiss-wink-heart"></i>
                             </span>
                         </button>
                         <div class="dropdown-content">
-                          <a href="#">Geothermal Valley</a>
+                          <a href="geothermal">Geothermal Valley</a>
                           <a href="#">Mud Pools</a>
-                          <a href="#">Geysers</a>
+                          <a href="#">Kiwi Conservation</a>
+                          <a href="#">Experiances</a>
                         </div>
-                      </div>
-                      
+                    </div>
+                          
                 </li>
             </ul>
         </div>
         </div>
     </nav>
+    
     <!--main content of page-->
     <body style="background-image: url('images/outsideview.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
 
@@ -71,17 +90,21 @@
         </div>
     
         <div class="maintext">
-            <ul>
-                <li>
-                    Sharing Taonga
-                </li>
-                <li>
-                    Our Values
-                </li>
-                <li>
-                    Health and Safety
-                </li>
-            </ul>
+            <div class="container-lhlf">
+                <p>Featuring dramatic geysers, bubbling mud, and beautiful native bush explored by our personalised guided tours. Te Puia is home to the New Zealand Māori Arts and Crafts Institute and offers a state-of-the-art Kiwi Conservation Centre, so you can get closer than ever before to New Zealand’s national treasure- the native Kiwi bird.
+                <br>For generations, Te Puia has welcomed manuhiri (visitors) from all over the world to explore the magic hidden within Te Whakarewarewa Thermal Valley during both the day and evening. <br>Nau mai, haere mai. We look forward to welcoming you.</p>
+            </div>
         </div>
+        <!--list of key info-->
+        <div class="container-stat">
+            <div class="keyinfo-list">
+                <ul>
+                    <li>
+                        open hrs
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
     </body>
     </html>

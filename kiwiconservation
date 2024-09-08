@@ -18,49 +18,61 @@
     <link rel="shortcut icon" href="images/tepuia-logo.svg" type="image/x-icon">
 
 </head>
-<body>
-    <!--top bar, navigation setup-->
-    <nav class="navbar">
-        <!--sets container class to prevent stretching when browser is extended-->
-        <div class="main-menu">
-            <!--list of pages in nav bar  -->
-            <ul>
-                <li class="logo-container logo">
-                    <a href="index">
-                        <img src="images/tepuia-logo.svg" alt="logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="index">Home</a>
-                </li>
-                <li>
-                    <a href="aboutpage">About</a>
-                </li>
-                <li>
-                    <a href="terito">Te Rito</a>                    
-                </li>
-                
-                <li>
-                    <a href="carvingschools">Carving Schools</a>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">More Info
-                            <span class="icons drop-icon">
-                                <i class="fa-solid fa-face-kiss-wink-heart"></i>
-                            </span>
-                        </button>
-                        <div class="dropdown-content">
-                          <a href="geothermal">Geothermal Valley</a>
-                          <a href="#">Mud Pools</a>
-                          <a href="#">Kiwi Conservation</a>
-                          <a href="#">Experiances</a>
-                        </div>
-                      </div>
+
+<!--top bar, navigation setup-->
+<nav class="navbar">
+    <!--sets container class to prevent stretching when browser is extended-->
+    <div class="main-menu">
+        <!--list of pages in nav bar  -->
+        <ul>
+            <li class="logo-container logo">
+                <a href="index">
+                    <img src="images/tepuia-logo.svg" alt="logo">
+                </a>
+            </li>
+            <li>
+                <a href="index">Home</a>
+            </li>                <li>
+                <a href="aboutpage">About</a>
+            </li>
+            <li>
+                <a href="terito">Te Rito</a>                    
+            </li>                
+            <li>
+                <a href="carvingschools">Carving Schools</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">More Info
+                        <span class="icons drop-icon">
+                            <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                        </span>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="geothermal">Geothermal Valley</a>
+                      <a href="#">Mud Pools</a>
+                      <a href="#">Kiwi Conservation</a>
+                      <a href="#">Experiances</a>
+                    </div>
+                </div>
                       
-                </li>
-            </ul>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<body style="background-image: url('images/sunshineferns.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
+    <!--page title-->
+    <div class="indent">
+        <div class="header">
+            <h1>Kiwi<br>Conservation</h1>
         </div>
+    </div>
+    <div class="rightside">
+        <div class="container-lg">
+            <img src="images/kiwionfern.png" alt="kiwi on fern">
         </div>
-    </nav>
+        
+    </div>
 </body>

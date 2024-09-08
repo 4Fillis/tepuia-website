@@ -18,7 +18,7 @@
     <link rel="shortcut icon" href="images/tepuia-logo.svg" type="image/x-icon">
 
 </head>
-<body>
+<body style="background-image: url('images/roomview.jpeg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
     <!--top bar, navigation setup-->
     <nav class="navbar">
         <!--sets container class to prevent stretching when browser is extended-->
