@@ -302,16 +302,29 @@ video {
     padding-left: 40%;
 }
 
-.keyinfo-list{
-    width: 45%;
+.container-topright{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    margin-top: 128px;
+}
+.container-snapinfo{
+    width: 1300px;
+    height: auto;
+}
+
+.snapinfo{
+    width: 60%;
+    height: auto;
+    background: rgba(0,0,0,0.8);
     border-radius: 20px;
-    align-content: flex-start;
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'serif', "monospace";
     font-weight: 600;
-    line-height: 70px;
-    color: var(--darker-red);
-    margin-top: 50px;
+    line-height: 40px;
+    color: white;
 
 }
 
