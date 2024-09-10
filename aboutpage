@@ -89,18 +89,38 @@
             <h1>About</h1>
         </div>
     
-        <div class="maintext">
-            <div class="container-lhlf">
-                <p>Featuring dramatic geysers, bubbling mud, and beautiful native bush explored by our personalised guided tours. Te Puia is home to the New Zealand Māori Arts and Crafts Institute and offers a state-of-the-art Kiwi Conservation Centre, so you can get closer than ever before to New Zealand’s national treasure- the native Kiwi bird.
-                <br>For generations, Te Puia has welcomed manuhiri (visitors) from all over the world to explore the magic hidden within Te Whakarewarewa Thermal Valley during both the day and evening. <br>Nau mai, haere mai. We look forward to welcoming you.</p>
-            </div>
-        </div>
         <!--list of key info-->
         <div class="container-stat">
-            <div class="keyinfo-list">
+            <!--<div class="keyinfo-list">
                 <ul>
                     <li>
                         open hrs
+                    </li>
+                </ul>
+            </div>-->
+            <div class="container-lhlf">
+                <p>Founded by Āpirana Ngata in 1963, Te Puia features dramatic geysers, bubbling mud, and beautiful native bush explored by our personalised guided tours. Te Puia is home to the New Zealand Māori Arts and Crafts Institute and offers a state-of-the-art Kiwi Conservation Centre, so you can get closer than ever before to New Zealand’s national treasure- the native Kiwi bird.
+                <br>For generations, Te Puia has welcomed manuhiri (visitors) from all over the world to explore the magic hidden within Te Whakarewarewa Thermal Valley during both the day and evening. <br>Nau mai, haere mai. We look forward to welcoming you.</p>
+            </div>
+        </div>
+
+        <div class="container-rlist">
+            <div class="infolist">
+                <ul>
+                    <li>
+                        <span class="infotitles">Open Hours: </span> 8am - 4pm 7 days
+                    </li>
+                    <li>
+                        <span class="infotitles">Location: </span> <span class="ans">Hemo Road, Whakarewarewa, Rotorua 3010</span>
+                    </li>
+                    <li>
+                        <span class="infotitles">wht u can do:</span><span class="ans">ans</span>
+                    </li>
+                    <li>
+                        <a href="http://www.tepuia.com/"><span class="infotitles">Official Website: </span><span class="link">Here</span></a>
+                    </li>
+                    <li>
+                        motto/english
                     </li>
                 </ul>
             </div>
