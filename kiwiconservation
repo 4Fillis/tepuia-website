@@ -26,12 +26,12 @@
         <!--list of pages in nav bar  -->
         <ul>
             <li class="logo-container logo">
-                <a href="index">
+                <a href="index.html">
                     <img src="images/tepuia-logo.svg" alt="logo">
                 </a>
             </li>
             <li>
-                <a href="index">Home</a>
+                <a href="index.html">Home</a>
             </li>                <li>
                 <a href="aboutpage">About</a>
             </li>
