@@ -25,7 +25,7 @@
         <div class="container">
             <!--logo stuff in nav bar-->
             <div class="logo">
-                <a href="index.html">
+                <a href="index">
                     <img src="images/tepuia-logo.svg" alt="logo">
                 </a>
             </div>
@@ -34,7 +34,7 @@
             <!--list of pages in nav bar  -->
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index">Home</a>
                 </li>
                 <li>
                     <a href="terito">Te Rito</a>                    

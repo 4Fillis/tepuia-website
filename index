@@ -8,7 +8,7 @@
     <!--fonts embed code from google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
 
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,39 +22,40 @@
     <!--top bar, navigation setup-->
     <nav class="navbar">
         <!--sets container class to prevent stretching when browser is extended-->
+        <div class="container">
+            <!--logo stuff in nav bar-->
+            <div class="logo">
+                <a href="index">
+                    <img src="images/tepuia-logo.svg" alt="logo">
+                </a>
+            </div>
+        
         <div class="main-menu">
             <!--list of pages in nav bar  -->
             <ul>
-                <li class="logo-container logo">
-                    <a href="index.html">
-                        <img src="images/tepuia-logo.svg" alt="logo">
-                    </a>
-                </li>
                 <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="aboutpage">About</a>
+                    <a href="index">Home</a>
                 </li>
                 <li>
                     <a href="terito">Te Rito</a>                    
                 </li>
-                
                 <li>
-                    <a href="carvingschools">Carving Schools</a>
+                    <a href="tetakapu">Te Takapū</a>
+                </li>
+                <li>
+                    <a href="#">Whakairo Rākau</a>
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="dropbtn">More Info
+                        <button class="dropbtn">Land
                             <span class="icons drop-icon">
                                 <i class="fa-solid fa-face-kiss-wink-heart"></i>
                             </span>
                         </button>
                         <div class="dropdown-content">
-                          <a href="geothermal">Geothermal Valley</a>
-
-                          <a href="kiwiconservation">Kiwi Conservation</a>
-                          <a href="experiances">Experiances</a>
+                          <a href="#">Geothermal Valley</a>
+                          <a href="#">Mud Pools</a>
+                          <a href="#">Geysers</a>
                         </div>
                       </div>
                       
@@ -69,7 +70,6 @@
             <source src="images/editedvid.mp4" type="video/mp4">
           </video>
         </div>
-        <!--page title-->
         <div class="container-header">
             <div class="header">
                 <h1>Te Puia</h1>
@@ -78,13 +78,12 @@
         </div>
         <div class="content">
             <div class="grid-container">
-                <button class="grid-btn" style="background-image: url('images/carvingtiki.jpg');" onclick="window.location.href='aboutpage';">About <br>All the info</button>
                 <button class="grid-btn" style="background-image: url('images/flowers.jpg');" onclick="window.location.href='terito';">Te Rito <br>National Weaving School</button>
-                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');"onclick="window.location.href='carvingschools';">Te Wānanga Whakairo <br>National Carving School</button>
-                <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');"onclick="window.location.href='experiances';">Experiances</button>
-                <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg');"onclick="window.location.href='geothermal';">Geothermal Valley<br>Valley, geysers, and mud pools</button>
-                <button class="grid-btn" style="background-image: url('images/kiwi.jpeg');"onclick="window.location.href='kiwiconservation';">Kiwi conservation</button>
-                
+                <button class="grid-btn" style="background-image: url('images/carvingtiki.jpg');">Te Takapū <br>National Stone and Bone carving school</button>
+                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');">Whakairo Rākau <br>National Wood carving school</button>
+                <button class="grid-btn" style="background-image: url('images/geothermalvalley.jpg');">Geothermal Valley</button>
+                <button class="grid-btn" style="background-image: url('images/closeuppools.jpg');">Mud Pools</button>
+                <button class="grid-btn" style="background-image: url('images/rocks2.jpg');">Geysers</button>
             </div>
         </div>
     </section>
