@@ -166,7 +166,7 @@ video {
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    z-index:-100;
+    z-index:-1;
   }
 
 /*Utility classes - text*/
@@ -216,13 +216,15 @@ video {
     color: var(--darker-red);
     margin-top: 50px;
 }
+
+/*about page base info styling*/
 .infolist{
     color: var(--white);
     font-size: 50px;
 }
 .infotitles{
     color: aqua;
-    font-style: italic;
+    font-style: none;
 
 }
 .ans{
@@ -280,7 +282,7 @@ video {
     position: relative;
     background-color: var(--darker-red);
 }
-
+/*hlf = container covering abt half of page, lhlf is hlf container on rightside (also additional styling)*/
 .container-hlf{
     width: 60%;
     height: auto;
@@ -295,7 +297,7 @@ video {
     width: 1050px;
     height: auto;
     position: relative;
-    background-color: var(--darker-red);
+    background-color: var(--shaded-red);
     font-style: italic;
     color: var(--white);
     margin-top: 70px;
@@ -317,7 +319,7 @@ video {
     width: 95%;
     height: auto;
     position: absolute;
-    top: 128px;
+    top: 128px; 
     right: 50px;
     text-align: right;
     padding-left: 40%;
@@ -336,16 +338,20 @@ video {
     height: auto;
 }
 
-.snapinfo{
-    width: 60%;
+.container-ud{
+    width: 800px;
     height: auto;
-    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-self: flex-start;
+    position: relative;
+    padding: 10px;
     border-radius: 20px;
-    font-size: 35px;
-    font-family: 'serif', "monospace";
-    font-weight: 600;
+    background-color: var(--shaded-red);
+    opacity: 95%;
+    margin-left: 20px;
+    margin-top: -500px;
     line-height: 40px;
-    color: var(--white);
+
 }
 .container-rlist{
     width: 1000px;
@@ -358,8 +364,23 @@ video {
     border-radius: 20px;
     padding-top: 10px;
 }
+/*general container*/
+.container-lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 600px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: 20px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+}
 
-/*mainpg buttons container class*/
+/*grid buttons -kept separate for ease of finding*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 400px);
@@ -415,21 +436,6 @@ video {
     display: block;
 }
 
-/*general container*/
-.container-lg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 600px;
-    margin: 20px;
-    margin-left: 40px;
-    margin-top: 40px;
-    border-radius: 20px;
-    border: 20px solid rgba(255, 255, 255, 0.1);
-    background-color: rgba(255, 255, 255, 0.4);
-    overflow: hidden;
-}
 .container-lg img{
     width: 100%;
     height: 100%;

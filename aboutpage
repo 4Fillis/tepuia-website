@@ -46,12 +46,12 @@
             <!--list of pages in nav bar  -->
             <ul>
                 <li class="logo-container logo">
-                    <a href="index">
+                    <a href="index.html">
                         <img src="images/tepuia-logo.svg" alt="logo">
                     </a>
                 </li>
                 <li>
-                    <a href="index">Home</a>
+                    <a href="index.html">Home</a>
                 </li>                <li>
                     <a href="aboutpage">About</a>
                 </li>
@@ -103,7 +103,7 @@
                 <br>For generations, Te Puia has welcomed manuhiri (visitors) from all over the world to explore the magic hidden within Te Whakarewarewa Thermal Valley during both the day and evening. <br>Nau mai, haere mai. We look forward to welcoming you.</p>
             </div>
         </div>
-
+        <!--under header motto/vision & list of info-->
         <div class="container-rlist">
             <div class="infolist">
                 <ul>
@@ -120,9 +120,26 @@
                         <a href="http://www.tepuia.com/"><span class="infotitles">Official Website: </span><span class="link">Here</span></a>
                     </li>
                     <li>
-                        motto/english
+                        <span class="infotitles">boo</span>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <!--under head container with values & vision statement-->
+        <div class="container-ud">
+            <div class="motto">
+                <h3>Our Vision</h3>
+                <p>To perpetuate excellence in Māori Arts, Crafts & Culture</p>
+                <h3>Our Values</h3>
+                <p>Manaakitanga - Whanaungatanga - Kaitiakitanga</p>
+            </div>
+        </div>
+
+        <div class="container-ud">
+            <div class="values-text">
+                <p>
+                    text goes here
+                </p>
             </div>
         </div>
         
