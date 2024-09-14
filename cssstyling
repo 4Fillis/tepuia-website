@@ -23,10 +23,18 @@ body{ /* set background color and font*/
     line-height: 1.5;
     font-size: 20px;
 }
+/* multipul selectors */
+.dropbtn, .maintext, .infolist, .p, .a, .container-lhlf, .prev, .next, .dropdown-content a{
+    color: var(--white);
+}
 
-a{ /* set color and remove text styling */
-    text-decoration: none;
-    color: #ffffff
+.navbar, .dropbtn, .container-wide, .container-hlf, .rlist{
+    background: var(--darker-red);
+
+}
+
+.container-ud, .container-lhlf, .container-rlist{
+    background-color: var(--shaded-red);
 }
 
 ul{ /* keep list unstyled */
@@ -39,7 +47,6 @@ img{ /* ensure images dont stretch */
 }
 /*navigation bar styling*/
 .navbar{
-    background: var(--darker-red);
     padding: 20px;
     text-align: left;
 }
@@ -73,6 +80,8 @@ below is hover set up (change color wheh hovering)*/
     display: block;
     font-weight: 550;
     transition: 0.5s;
+    color: var(--white);
+    text-decoration: none;
 }
 .navbar ul li a:hover {
     color: black;
@@ -94,8 +103,6 @@ below is hover set up (change color wheh hovering)*/
 
 /*dropdown menu styling*/
 .dropbtn {
-    background-color: var(--darker-red);
-    color: var(--white);
     padding: 16px;
     font-size: 18px;
     border: none;
@@ -112,14 +119,13 @@ below is hover set up (change color wheh hovering)*/
     display: none;
     position: absolute;
     font-family: 'poppins', 'monospace';
-    background-color: var(--mid-red);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px black;
+    background-color: var(--mid-red);
     z-index: 1;
 }
 /*for writing*/
 .dropdown-content a {
-    color: var(--white);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -191,7 +197,6 @@ video {
 
 .maintext{
     font-size: 25px;
-    color: var(--white);
     font-family:'monospace';
     padding: 20px;
     margin: 25px;
@@ -219,7 +224,6 @@ video {
 
 /*about page base info styling*/
 .infolist{
-    color: var(--white);
     font-size: 50px;
 }
 .infotitles{
@@ -235,7 +239,6 @@ video {
     color: #1951a5;
 }
 .p{
-    color: var(--white);
     font-size: 20px;
     text-align: left;
     padding: 10px;
@@ -280,14 +283,12 @@ video {
     height: auto;
     padding-top: 100px;
     position: relative;
-    background-color: var(--darker-red);
 }
 /*hlf = container covering abt half of page, lhlf is hlf container on rightside (also additional styling)*/
 .container-hlf{
     width: 60%;
     height: auto;
     position: relative;
-    background-color: var(--darker-red);
     margin-left: 38%;
     margin-top: 100px;
     border-radius: 20px;
@@ -297,9 +298,7 @@ video {
     width: 1050px;
     height: auto;
     position: relative;
-    background-color: var(--shaded-red);
     font-style: italic;
-    color: var(--white);
     margin-top: 70px;
     padding: 20px;;
     border-radius: 20px;
@@ -346,7 +345,6 @@ video {
     position: relative;
     padding: 10px;
     border-radius: 20px;
-    background-color: var(--shaded-red);
     opacity: 95%;
     margin-left: 20px;
     margin-top: -500px;
@@ -357,7 +355,6 @@ video {
     width: 1000px;
     height: auto;
     position: relative;
-    background-color: rgba(138, 16, 16, 0.8);
     margin-left: 45%;
     margin-top: 80px;
     padding: 20px;
@@ -369,20 +366,20 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 600px;
-    margin: 20px;
-    margin-left: 40px;
-    margin-top: 40px;
-    border-radius: 20px;
+    width: auto;
+    max-width: 50%;
+    height: fit-content;
+    margin: -350px 20px 140px;
     border: 20px solid rgba(255, 255, 255, 0.1);
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
     overflow: hidden;
 }
 
 #kiwiimage{
-    margin-top: -500px;
+    opacity: 90%;
 }
+
 
 /*grid buttons -kept separate for ease of finding*/
 .grid-container {
@@ -515,7 +512,6 @@ video {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: var(--white);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
