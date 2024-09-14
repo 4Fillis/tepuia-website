@@ -70,7 +70,7 @@
     <div class="rightside">
         <!--large container with kiwi image-->
         <div class="container-lg">
-            <img id="kiwiimage" src="images/kiwionfern.png" alt="kiwi on fern">
+            <img id="kiwi-img" src="images/kiwionfern.png" alt="kiwi on fern">
         </div>
     </div>
 
@@ -85,6 +85,7 @@
                     </p>
                 </li>
                 <li>
+                    <br>
                     <h3>Conservation Facility:</h3>
                     <p>
                         Our award-winning conservation facility is tempurature controlled for the kiwi and features special vegetation-growing light, 
@@ -92,6 +93,7 @@
                     </p>
                 </li>
                 <li>
+                    <br>
                     <h3>Sustainability:</h3>
                     <p>Zoo Aquarium Assosiation (ZAA) is coordinating a national captive management program for North Island Brown Kiwi Te Puia is proud to be part of.
                         Te Puia is tied by promises to our tūpuna, our ancestors to uphold our culture through preservation of our unique fauna, flora, culture and language.
@@ -99,14 +101,26 @@
                     </p>
                 </li>
                 <li>
+                    <br>
                     <h3><i class="fa-solid fa-camera-retro"></i> No photos/videos or any mobile phones</h3>
                     <p>
                         No photography or videography is permitted within the kiwi enclousure, this keeps our kiwis happy and healthy.
                         <br>Please make sure any devices such as mobile phones are switched off or on silent. Te Puia thanks you for your cooperation on this matter. 
-                        <br>NO MOBILE PHONES IN THIS AREA<br>
                     </p>
                 </li>
+                <li>
+                    <br>
+                    <h3><strong>NO MOBILE PHONES IN THIS AREA</strong><br><br></h3>
+
+                </li>
             </ul>
+        </div>
+    </div>
+
+    <div class="rightside">
+        <!--large container with fern image-->
+        <div class="container-lg moveup">
+            <img id="fern-img" src="images/curledfern.jpg" alt="kiwi on fern">
         </div>
     </div>
 

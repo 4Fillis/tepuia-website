@@ -21,30 +21,39 @@ body{ /* set background color and font*/
     background: var(--darker-red);
     font-family: 'poppins';
     line-height: 1.5;
-    font-size: 20px;
 }
 /* multipul selectors */
 .dropbtn, .maintext, .infolist, .p, .a, .container-lhlf, .prev, .next, .dropdown-content a{
     color: var(--white);
 }
-
+/* background colours*/
 .navbar, .dropbtn, .container-wide, .container-hlf, .rlist{
     background: var(--darker-red);
-
 }
 
 .container-ud, .container-lhlf, .container-rlist{
     background-color: var(--shaded-red);
 }
+/*font size 40px*/
+.body, .drop-icon, .grid-btn{
+    font-size: 20px;
+}
 
-ul{ /* keep list unstyled */
-    list-style: none;
+/*rounds corners*/
+.container-header, .container-hlf, .container-lhlf, .container-rlist, .container-ud, .container-lg, .container-lg img,
+.grid-btn, .inline-image, .vert-image{
+    border-radius: 20px;
 }
 
 img{ /* ensure images dont stretch */
     max-height: 100%;
     max-width: 100%;
 }
+
+ul{ /* keep list unstyled */
+    list-style: none;
+}
+
 /*navigation bar styling*/
 .navbar{
     padding: 20px;
@@ -155,7 +164,6 @@ ul li ul.dropdown {
 /*drop icon positioning + rotation*/
 .drop-icon{
     display:inline;
-    font-size: 20px;
     right: -10px;
     position: relative;
     transform: rotate(50deg);
@@ -239,7 +247,6 @@ video {
     color: #1951a5;
 }
 .p{
-    font-size: 20px;
     text-align: left;
     padding: 10px;
     margin: 10px;
@@ -258,7 +265,7 @@ video {
     z-index:1;
 }
 .moveup{
-    top: 450px;
+    top: -350px;
     z-index:1;
 }
 .indent{
@@ -270,7 +277,6 @@ video {
     width: 700px;
     height: 250px;
     border: 10px 70% 20px;
-    border-radius: 20px;
     background-color: rgba(126, 10, 10, 0.7);
     padding: 20px;
     margin: 20px;
@@ -291,7 +297,6 @@ video {
     position: relative;
     margin-left: 38%;
     margin-top: 100px;
-    border-radius: 20px;
     padding-top: 10px;
 }
 .container-lhlf{
@@ -301,7 +306,6 @@ video {
     font-style: italic;
     margin-top: 70px;
     padding: 20px;;
-    border-radius: 20px;
     padding: 20px;
 }
 
@@ -344,7 +348,6 @@ video {
     align-self: flex-start;
     position: relative;
     padding: 10px;
-    border-radius: 20px;
     opacity: 95%;
     margin-left: 20px;
     margin-top: -500px;
@@ -358,7 +361,6 @@ video {
     margin-left: 45%;
     margin-top: 80px;
     padding: 20px;
-    border-radius: 20px;
     padding-top: 10px;
 }
 /*general container*/
@@ -367,17 +369,24 @@ video {
     justify-content: center;
     align-items: center;
     width: auto;
-    max-width: 50%;
+    max-width: 48%;
     height: fit-content;
-    margin: -350px 20px 140px;
+    font-size: 22px;
+    /*top, right, bottom, left*/
+    margin: -350px 20px 150px;
     border: 20px solid rgba(255, 255, 255, 0.1);
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
     overflow: hidden;
+    position: relative;
 }
 
-#kiwiimage{
+/*makes image slightly more opaque*/
+#kiwi-img, #fern-img{
     opacity: 90%;
+}
+#fern-img{
+    width: 850px;
+    position: relative;
 }
 
 
@@ -398,11 +407,9 @@ video {
     background-size: cover;
     background-position: center;
     cursor: grab;
-    font-size: 20px;
     font-family: Georgia, 'monospace';
     font-weight: 650;
     border: black;
-    border-radius: 20px;
     padding-left: 10px;
     text-align: left;
     color: #fff;
@@ -427,7 +434,6 @@ video {
     margin-right: 0px;
     object-fit: cover;
     overflow: hidden;
-    border-radius: 20px;
     border: 2px solid var(--white);
 }
   
@@ -441,7 +447,6 @@ video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -458,7 +463,6 @@ video {
     
 }
 .vert-image{
-    border-radius: 20px;
     width: 500px;
     height: 300px;
     margin: 20px;
