@@ -22,6 +22,10 @@ body{ /* set background color and font*/
     font-family: 'poppins';
     line-height: 1.5;
 }
+html, body {/*adds bounce effect at end of page*/
+    overscroll-behavior: auto;
+}
+
 /* multipul selectors */
 .dropbtn, .maintext, .infolist, .p, .a, .container-lhlf, .prev, .next, .dropdown-content a{
     color: var(--white);
@@ -389,8 +393,7 @@ video {
     position: relative;
 }
 
-
-/*grid buttons -kept separate for ease of finding*/
+/*grid buttons styling for front page*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 400px);
@@ -398,7 +401,6 @@ video {
     gap: 20px;
     margin-left: 20px;
     margin-top: 40px;
-    
 }
 
 .grid-btn {
@@ -414,10 +416,31 @@ video {
     text-align: left;
     color: #fff;
     margin-left: 0px;
-    
+}
+/*experiances page row of images*/
+.container-row-images {
+    width: 95%;
+    margin: 20px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid var(--white);
 }
 /*images styling*/
 /*images*/
+.row-images{
+    display:inline-flex;
+    margin: 10px;
+}
+/*
+#exp1, #exp3, #exp5{
+    margin-top: 100px;
+}
+#exp2, #exp4, #exp6{
+    margin-top: 50px;
+}*/
+
 .inline-image-container {
     display: flex;
     flex-wrap: wrap;
@@ -443,7 +466,7 @@ video {
     display: block;
 }
 
-.container-lg img{
+.container-lg img, .row-images img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -459,9 +482,8 @@ video {
     position: absolute;
     margin: 20px;
     margin-left: 70px;
-
-    
 }
+
 .vert-image{
     width: 500px;
     height: 300px;
@@ -470,23 +492,18 @@ video {
     object-fit: cover;
     overflow: hidden;
 }
-#image1{
+#vert1, #vert2, #vert3, #vert4{
     margin: 10px;
+}
+#vert1{
     margin-left: 10px;
 }
-#image2{
-    margin: 10px;
+#vert2, #vert4{
     margin-left: 50px;
 }
-#image3{
-    margin: 10px;
+#vert3{
     margin-left: 80px;
 }
-#image4{
-    margin: 10px;
-    margin-left: 50px;
-}
-  
 
 /*styling for te rito slideshow */
 * {box-sizing:border-box}
@@ -501,7 +518,7 @@ video {
     align-items:start;
     margin-top: 20px;
     z-index: 2;
-  }
+}
   
   /* Hide the images by default */
   .slideshow {

@@ -61,6 +61,23 @@
 </nav>
 
 <!--body (yet to be added)-->
-<body>
+
+<body style="background-image: url('images/te-puia-entrance.webp'); background-size: cover; background-position: left; background-repeat: no-repeat;">
+    <!--page title-->
+    <div class="indent">
+        <div class="header">
+            <h1>Experiances</h1>
+        </div>
+    </div>
+    <div class="container-row-images">
+        <div class="row-images">
+            <div class="row-images" id=exp1><img src="images/nightgeyser.jpg" alt="nightgeyser"></div>
+            <div class="row-images" id=exp2><img src="images/haka-perf-tepuia.jpg" alt="haka performance"></div>
+            <div class="row-images" id=exp3><img src="images/whare-night.jpg" alt="whare, lit up"></div>
+            <div class="row-images" id=exp4><img src="images/tepuia-night.jpg" alt="te puia entrance"></div>
+            <div class="row-images" id=exp5><img src="images/blue-nightgeyser.jpg" alt="blue geyser/night"></div>
+            <div class="row-images" id=exp6><img src="images/whare-night.jpg" alt="whare, lit up"></div>
+        </div>
+    </div>
 
 </body>
