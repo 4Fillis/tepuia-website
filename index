@@ -73,13 +73,16 @@
             </div>
         </div>
         <div class="content">
+            <!--grid of buttons linking to other website pages-->
             <div class="grid-container">
+                <!--top row-->
+                <button class="grid-btn" style="background-image: url('images/te-puia-entrance.webp');"onclick="window.location.href='aboutpage';">About<br>Information - all you need to know</button>
                 <button class="grid-btn" style="background-image: url('images/flowers.jpg');" onclick="window.location.href='terito';">Te Rito <br>National Weaving School</button>
-                <button class="grid-btn" style="background-image: url('images/carvingtiki.jpg');">Te Takapū <br>National Stone and Bone carving school</button>
-                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');">Whakairo Rākau <br>National Wood carving school</button>
-                <button class="grid-btn" style="background-image: url('images/geothermalvalley.jpg');">Geothermal Valley</button>
-                <button class="grid-btn" style="background-image: url('images/closeuppools.jpg');">Mud Pools</button>
-                <button class="grid-btn" style="background-image: url('images/rocks2.jpg');">Geysers</button>
+                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');"onclick="window.location.href='carvingschools';">Carving <br>National Carving School</button>
+                <!--bottom row-->
+                <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg');"onclick="window.location.href='geothermalvalley';">Land <br>Geothermal Valley</button>
+                <button class="grid-btn" style="background-image: url('images/kiwionfern.png');"onclick="window.location.href='kiwiconservation';">Kiwi <br>Kiwi conservation at Te Puia</button>
+                <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');"onclick="window.location.href='experiances';">Experiances <br>Check out our experiances</button>
             </div>
         </div>
     </section>
@@ -91,6 +94,7 @@
     <i class="fa-solid fa-caret-left"></i>
 
   -->  
+    <!--link to js file-->
     <script src="mjava"></script>
 </body>
 </html>
