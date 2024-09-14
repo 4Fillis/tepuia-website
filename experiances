@@ -16,51 +16,50 @@
     <link rel="stylesheet" href="cssstyling">
     <!--logo icon (on tab)-->
     <link rel="shortcut icon" href="images/tepuia-logo.svg" type="image/x-icon">
+</head> 
 
-</head>
-<body style="background-image: url('images/roomview.jpeg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
-    <!--top bar, navigation setup-->
-    <nav class="navbar">
-        <!--sets container class to prevent stretching when browser is extended-->
-        <div class="main-menu">
-            <!--list of pages in nav bar  -->
-            <ul>
-                <li class="logo-container logo">
-                    <a href="index">
-                        <img src="images/tepuia-logo.svg" alt="logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="index">Home</a>
-                </li>
-                <li>
-                    <a href="aboutpage">About</a>
-                </li>
-                <li>
-                    <a href="terito">Te Rito</a>                    
-                </li>
-                
-                <li>
-                    <a href="carvingschools">Carving Schools</a>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">More Info
-                            <span class="icons drop-icon">
-                                <i class="fa-solid fa-face-kiss-wink-heart"></i>
-                            </span>
-                        </button>
-                        <div class="dropdown-content">
-                          <a href="geothermal">Geothermal Valley</a>
-                          <a href="geothermal">Mud Pools</a>
-                          <a href="#">Kiwi Conservation</a>
-                          <a href="#">Experiances</a>
-                        </div>
-                      </div>
-                      
-                </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
+<!--top bar, navigation setup-->
+<nav class="navbar">
+    <!--sets container class to prevent stretching when browser is extended-->
+    <div class="main-menu">
+        <!--list of pages in nav bar  -->
+        <ul>
+            <li class="logo-container logo">
+                <a href="index">
+                    <img src="images/tepuia-logo.svg" alt="logo">
+                </a>
+            </li>
+            <li>
+                <a href="index">Home</a>
+            </li>                
+            <li>
+                <a href="aboutpage">About</a>
+            </li>
+            <li>
+                <a href="terito">Te Rito</a>                    
+            </li>                
+            <li>
+                <a href="carvingschools">Carving Schools</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">More Info
+                        <span class="icons drop-icon">
+                            <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                        </span>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="geothermal">Geothermal Valley</a>
+                      <a href="#">Mud Pools</a>
+                      <a href="kiwiconservation">Kiwi Conservation</a>
+                      <a href="experiances">Experiances</a>
+                    </div>
+                </div>  
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<body>
+
 </body>
