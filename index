@@ -48,6 +48,7 @@
                             <i class="fa-solid fa-face-kiss-wink-heart"></i>
                         </span>
                     </button>
+                    <!--dropdown menu-->
                     <div class="dropdown-content">
                       <a href="geothermal">Geothermal Valley</a>
                       <a href="#">Mud Pools</a>

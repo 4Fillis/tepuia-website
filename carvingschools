@@ -72,6 +72,7 @@
             <span style="background-color: rgba(255, 255, 255, 0.466);">"Everyone has a reason in life. This was my reason"<br> -Clive Fugill</span>
         </div>
     </div>
+    <!--inline images at top-->
     <div class="inline-image-container">
         <div class="inline-image"><img src="images/fired-woodcarving.jpeg" alt="fired woodcarving"></div>
         <div class="inline-image"><img src="images/carved-pare.jpg" alt="carved pare"></div>
@@ -79,6 +80,7 @@
         <div class="inline-image"><img src="images/lg-carving.jpg" alt="carving"></div>
 
     <div class="container-wide">
+        <!--main text-->
         <div class="maintext">
             <p>
                 Summary:<br>

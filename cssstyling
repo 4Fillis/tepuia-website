@@ -380,6 +380,10 @@ video {
     overflow: hidden;
 }
 
+#kiwiimage{
+    margin-top: -500px;
+}
+
 /*grid buttons -kept separate for ease of finding*/
 .grid-container {
     display: grid;

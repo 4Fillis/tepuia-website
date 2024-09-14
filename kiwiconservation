@@ -68,8 +68,9 @@
         </div>
     </div>
     <div class="rightside">
+        <!--large container with kiwi image-->
         <div class="container-lg">
-            <img src="images/kiwionfern.png" alt="kiwi on fern">
+            <img id="kiwiimage" src="images/kiwionfern.png" alt="kiwi on fern">
         </div>
         
     </div>
