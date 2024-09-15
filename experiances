@@ -62,7 +62,7 @@
 
 <!--body (yet to be added)-->
 
-<body style="background-image: url('images/te-puia-entrance.webp'); background-size: cover; background-position: left; background-repeat: no-repeat;">
+<body style="background-image: url('images/te-puia-entrance.webp');">
     <!--page title-->
     <div class="indent">
         <div class="header">
@@ -70,7 +70,7 @@
         </div>
     </div>
     <div class="container-row-images">
-        <div class="row-images">
+        <div class="container-row-images">
             <div class="row-images" id=exp1><img src="images/nightgeyser.jpg" alt="nightgeyser"></div>
             <div class="row-images" id=exp2><img src="images/haka-perf-tepuia.jpg" alt="haka performance"></div>
             <div class="row-images" id=exp3><img src="images/whare-night.jpg" alt="whare, lit up"></div>
@@ -78,6 +78,39 @@
             <div class="row-images" id=exp5><img src="images/blue-nightgeyser.jpg" alt="blue geyser/night"></div>
             <div class="row-images" id=exp6><img src="images/whare-night.jpg" alt="whare, lit up"></div>
         </div>
+    </div>
+    <!--list of experiances-->
+    <div class="container-wide" id="swirl-overlay">
+        <div class="maintext">
+            <h1>Experiances Availiable</h1>
+            <ul>
+                <li>
+                    <h2>Te Rā Guided Experience</h2>
+                    <p>Incredible world-class giuded experiance</p>
+                </li>
+                </li>
+                    <h2>Te Rā + Haka combo</h2>
+                    <p>All the above and witniss a live cultural performance</p>
+                </li>
+                <li>
+                    <h2>Te Pō</h2>
+                    <p>Haka and delicious buffet dinner</p>
+                </li>
+                <li>
+                    <h2>Te Pō Combo</h2>
+                    <p>Haka, Guided experiance, and Buffet dinner. </p>
+                </li>
+                <li>
+                    <h2>Night Geyser</h2>
+                    <p>Witniss Rototuas geothermal wonders lit up</p>
+                </li>
+                <li>
+                    <h2>Whanau Card</h2>
+                    <p>Join Te Puias legacy</p>
+                </li>
+            </ul>
+        </div>
+
     </div>
 
 </body>

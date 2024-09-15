@@ -16,6 +16,11 @@
     --gray-color: #818181;
     --white: whitesmoke;
 }
+.bg-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 body{ /* set background color and font*/
     background: var(--darker-red);
@@ -25,6 +30,10 @@ body{ /* set background color and font*/
 html, body {/*adds bounce effect at end of page*/
     overscroll-behavior: auto;
 }
+.inline-image, .vert-image, .overlay{
+    border: 2px solid var(--white);
+}
+
 
 /* multipul selectors */
 .dropbtn, .maintext, .infolist, .p, .a, .container-lhlf, .prev, .next, .dropdown-content a{
@@ -233,6 +242,9 @@ video {
     color: var(--darker-red);
     margin-top: 50px;
 }
+.text-across{
+    
+}
 
 /*about page base info styling*/
 .infolist{
@@ -291,6 +303,7 @@ video {
 .container-wide{
     width: 100%;
     height: auto;
+    padding: 10px;
     padding-top: 100px;
     position: relative;
 }
@@ -309,7 +322,6 @@ video {
     position: relative;
     font-style: italic;
     margin-top: 70px;
-    padding: 20px;;
     padding: 20px;
 }
 
@@ -385,13 +397,14 @@ video {
 }
 
 /*makes image slightly more opaque*/
-#kiwi-img, #fern-img{
+#kiwi-img, #fern-img, .overlay img{
     opacity: 90%;
 }
 #fern-img{
     width: 850px;
     position: relative;
 }
+
 
 /*grid buttons styling for front page*/
 .grid-container {
@@ -420,27 +433,38 @@ video {
 /*experiances page row of images*/
 .container-row-images {
     width: 95%;
+    height: auto;
     margin: 20px;
     padding: 10px;
     display: inline-flex;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 2px solid var(--white);
+    border: 2px solid rgba(255, 255, 255, 0.001);
 }
 /*images styling*/
 /*images*/
 .row-images{
-    display:inline-flex;
-    margin: 10px;
+    width: 400px;
+    height: 300px;
+    margin: 0px;
+    padding: 20px;;
+    background-color: rgba(255, 255, 255, 0.5);
 }
-/*
+
 #exp1, #exp3, #exp5{
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 #exp2, #exp4, #exp6{
     margin-top: 50px;
-}*/
-
+    margin-bottom: 100px;
+}
+/*keeps images within container and gets rid of stretch*/
+.container-lg img, .row-images img, .vert-image img, .inline-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
 .inline-image-container {
     display: flex;
     flex-wrap: wrap;
@@ -455,26 +479,17 @@ video {
     margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 0px;
-    object-fit: cover;
-    overflow: hidden;
-    border: 2px solid var(--white);
 }
-  
-.inline-image img {
+#swirl-overlay{
     width: 100%;
     height: auto;
-    display: block;
+    background-repeat: repeat-x;
+    background-size: auto;
+    background-image: url(images/swirl-design.png);
+    
+    top: 10px;
+    right: 20px;
 }
-
-.container-lg img, .row-images img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-
-
 /*vertical cascading container images*/
 .vert-container {
     display: flex;
@@ -488,7 +503,6 @@ video {
     width: 500px;
     height: 300px;
     margin: 20px;
-    border: 2px solid var(--white);
     object-fit: cover;
     overflow: hidden;
 }
