@@ -106,7 +106,8 @@
     </div>
 
     <!-- footer -->
-    <footor class="footer">
+    <footer class="box-footer footer">
+        <!-- footer content -->
         <p>&copy; 2024 Te Puia | Rotorua Geothermal Park, Māori Cultural Center</p>
         <p>
             | <a href="aboutpage">About</a> |
@@ -124,5 +125,7 @@
             <a href="https://twitter.com/Te_Puia/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
             <a href="https://www.facebook.com/tepuia.rotorua.nz/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
         <p>
-    </footor>
+        <!-- footer content -->
+        <p>
+    </footer>
 </body>

@@ -36,15 +36,18 @@ html, body {/*adds bounce effect at end of page*/
 }
 
 /*footer styling*/
-body .footer{
+.box-footer{
+    width: 40%;
+    height: auto;
+    background-color: cadetblue !important;
+    z-index: 1;
+
+}
+.footer{
     text-align: center;
     position: relative;
-    width: 100%;
-    height: auto;
     margin-top: 50px !important;
     color: var(--white);
-    background-color: var(--darker-red) !important;
-    z-index: 1;
     bottom: 0;
     padding: 20px;
     font-size: 25px;
