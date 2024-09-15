@@ -93,8 +93,15 @@
   <!--  
     <i class="fa-light fa-caret-down"></i>
     <i class="fa-solid fa-caret-left"></i>
-
   -->  
+    <footor class="footor">
+        <p>&copy; Te Puia, Rotorua Geothermal Park, Māori Cultural Center</p>
+        <p>
+            <a href="">About</a> |
+            <a href="#">Contact Us</a> |
+            <a href="#">Sitemap</a>
+        </p>
+    </footor>
     <!--link to js file-->
     <script src="mjava"></script>
 </body>

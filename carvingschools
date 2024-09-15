@@ -90,13 +90,19 @@
                 The protruding tongue, as used in the haka (war dance), is intended as a symbol of defiance, determination and strength, however in many carvings it can also symbolize the oral nature in which information was passed on from generation to generation.
                 Here at Te Puia we offer you the chance to take away traditional Māori carvings; beautiful handcrafted pieces made at our National Carving School. Look for the Te Puia Official Mark of Authenticity. We also accept carving commissions.
                 <br><br>
-                Wooden Hand clubs<br>
-                Before Europeans and European weapons arrived in Aotearoa, Māori warfare mainly involved hand-to-hand combat. Warriors used many different hand weapons, including taiaha (fighting staffs), pouwhenua (pointed staffs), tewhatewha (axe-like staffs), tao (short spears), huata (long spears) and patu (clubs). The long weapons were carried, and the small clubs were often tucked into a belt. Special weapons were sometimes given names and passed down through generations.
-                Wars could be fought over land and resources, but also as utu (revenge) or to increase mana (prestige). There were many traditions and rules to be followed during battles in earlier times. War parties (taua) could range in size from a small group to a few hundred people. Most battles took place in the summer months after the harvesting of crops was completed. The element of surprise was important, so raids often happened at dawn.
-                Though there were deaths and injuries as a result of skirmishes in pre-European times, the numbers were very small in comparison to the slaughter that occurred when muskets became available.
-
             </p>
-
+        </div>
+        <!-- maintext class with no text and overlay used to breakup text -->
+        <div class="maintext" id="swirl-overlay">
+            <p><br><br></p>
+        </div>
+        <div class="maintext">
+            <p>
+            Wooden Hand clubs<br>
+            Before Europeans and European weapons arrived in Aotearoa, Māori warfare mainly involved hand-to-hand combat. Warriors used many different hand weapons, including taiaha (fighting staffs), pouwhenua (pointed staffs), tewhatewha (axe-like staffs), tao (short spears), huata (long spears) and patu (clubs). The long weapons were carried, and the small clubs were often tucked into a belt. Special weapons were sometimes given names and passed down through generations.
+            Wars could be fought over land and resources, but also as utu (revenge) or to increase mana (prestige). There were many traditions and rules to be followed during battles in earlier times. War parties (taua) could range in size from a small group to a few hundred people. Most battles took place in the summer months after the harvesting of crops was completed. The element of surprise was important, so raids often happened at dawn.
+            Though there were deaths and injuries as a result of skirmishes in pre-European times, the numbers were very small in comparison to the slaughter that occurred when muskets became available.
+            </p>
         </div>
     </div>
 
