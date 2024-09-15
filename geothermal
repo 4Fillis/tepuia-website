@@ -98,7 +98,7 @@
         </div>
     </div>
     <!---cascading images, vertical-->
-    <div class="vert-container movedown">
+    <div class="vert-container moveup-520">
         <div class="vert-image" id="vert1"><img src="images/ferns.jpg" alt="ferns view"></div>
         <div class="vert-image" id="vert2"><img src="images/geothermalvalley.jpg" alt="valley view"></div>
         <div class="vert-image" id="vert3"><img src="images/geyser.jpeg" alt="geyser"></div>

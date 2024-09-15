@@ -88,14 +88,17 @@
                     </li>
                     <li>
                         <span class="infotitles">Experiances: </span> 
-                        we have six amazing experiances availiable to learn more or book <a href="https://www.tepuia.com/experiences/" target="_blank">Click here!</a>
+                        we have six amazing experiances availiable to learn more or book <a href="https://www.tepuia.com/experiences/" target="_blank">Click here</a>
+                        to visit the offical booking page, or go to www.tepuia.com/experiences/
                     </li>
                     <li>
                         <span class="infotitles">To check out the offical website: </span> 
-                        <a href="https://www.tepuia.com" target="_blank">click here</a>
+                        <a href="https://www.tepuia.com" target="_blank">click here</a> or visit above url
                     </li>
                     <li>
-                        <span class="infotitles">boo</span>
+                        <span class="infotitles">Contact details:</span>
+                        <br><i class="fa-regular fa-paper-plane"></i> Email: reservations@tepuia.com
+                        <br><i class="fa-solid fa-phone"></i> Phone: 07 348 9047
                     </li>
                 </ul>
             </div>
@@ -111,12 +114,5 @@
             </div>
         </div>
 
-        <div class="container-ud">
-            <div class="values-text">
-                <p>
-                    text goes here
-                </p>
-            </div>
-        </div>
     </body>
 </html>

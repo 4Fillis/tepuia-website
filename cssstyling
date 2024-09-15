@@ -78,7 +78,7 @@ text{
 }
 
 /*margins 20px*/
-.container-header, .container-row-images, .vert-container, .vert-image{
+.container-header, .container-row-images, .vert-container, .vert-image, .container-rlist{
     margin: 20px;
 }
 /*rounds corners*/
@@ -292,7 +292,7 @@ video {
     justify-content: flex-end;
     margin-right: 40px;
 }
-.movedown{
+.moveup-520{
     top: 520px;
     z-index:1;
 }
@@ -300,6 +300,7 @@ video {
     top: -400px;
     z-index:1;
 }
+
 .indent{
     margin-left: 40px;
 }
@@ -363,17 +364,18 @@ video {
     height: auto;
     display: flex;
     align-self: flex-start;
+    position: absolute;
     padding: 10px;
     opacity: 95%;
     margin-left: 20px;
-    margin-top: -500px;
+    margin-top: -950px;
     line-height: 40px;
 }
 .container-rlist{
     width: 1000px;
     height: auto;
-    margin-left: 45%;
-    margin-top: 80px;
+    margin-left: 45% !important;
+    margin-top: 80px !important;
     padding-top: 10px;
 }
 /*general container*/
