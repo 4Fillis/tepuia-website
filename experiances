@@ -81,8 +81,14 @@
     </div>
     <!--list of experiances-->
     <div class="container-wide" id="swirl-overlay">
-        <div class="maintext">
-            <h1>Experiances Availiable</h1>
+        <div class="maintext" id="">
+            <p id="exp-text">
+                Experiance the incredible with a <span class="pop-text">once-in-a-lifetime opportunity</span> to dive into an exciting day of connection and culture.
+                Here at Te Puia we offer a diverse range of experiances with something to suit everyone.
+                <br>Witniss the wonders of Te Whakarewarewa Thermal Valley including Pōhutu Geyser, the <span class="pop-text">Southern Hemispheres largest natural geyser</span> erupting over fifteen times a day.
+                <br>To learn more and book your adventure, visit <a href="https://www.tepuia.com/experiences/" target="_blank">here!</a>
+            </p>
+            <h1>We have six experiances availiable:</h1>
             <ul>
                 <li>
                     <h2>Te Rā Guided Experience</h2>

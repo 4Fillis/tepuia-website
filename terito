@@ -76,19 +76,19 @@
         <div class="slideshow fade">
           <div class="numbertext">1 / 3</div>
           <img src="images/shouldercloak.jpg" style="width:100%">
-          <div class="text">Kākahu</div>
+          <div class="cptn-text">Kākahu</div>
         </div>
       <!--image number based off images in order-->
         <div class="slideshow fade">
           <div class="numbertext">2 / 3</div>
           <img src="images/coolredweaving.jpg" style="width:100%">
-          <div class="text">Piupiu</div>
+          <div class="cptn-text">Piupiu</div>
         </div>
       
         <div class="slideshow fade">
           <div class="numbertext">3 / 3</div>
           <img src="images/verysnazzybags.jpg" style="width:100%">
-          <div class="text">Woven Kete</div>
+          <div class="cptn-text">Woven Kete</div>
         </div>
       
         <!-- Next and previous buttons -->

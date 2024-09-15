@@ -36,12 +36,16 @@ html, body {/*adds bounce effect at end of page*/
 
 
 /* multipul selectors */
-.dropbtn, .maintext, .infolist, .p, .a, .container-lhlf, .prev, .next, .dropdown-content a{
+.dropbtn, .maintext, .infolist, .p, .a, .container-lhlf, .prev, .next, .dropdown-content a, .cptn-text{
     color: var(--white);
 }
 /* background colours*/
 .navbar, .dropbtn, .container-wide, .container-hlf, .rlist{
     background: var(--darker-red);
+}
+/*makes font style italics*/
+.quote-text, .stat-text, #exp-text, .ans, .container-lhlf{
+    font-style: italic;
 }
 
 .container-ud, .container-lhlf, .container-rlist{
@@ -61,6 +65,9 @@ html, body {/*adds bounce effect at end of page*/
 img{ /* ensure images dont stretch */
     max-height: 100%;
     max-width: 100%;
+}
+.pop-text{
+    background-color: #1951a5;
 }
 
 ul{ /* keep list unstyled */
@@ -226,7 +233,6 @@ video {
 
 .quote-text{
     font-size: 80px;
-    font-style: italic;
     font-weight: 600;
     font-family: 'serif', 'monospace';
     line-height: 100px;
@@ -235,15 +241,14 @@ video {
 }
 .stat-text {
     font-size: 50px;
-    font-style: italic;
     font-family: 'serif', "monospace";
     font-weight: 600;
     line-height: 70px;
     color: var(--darker-red);
     margin-top: 50px;
 }
-.text-across{
-    
+#exp-text{
+    font-size: 40px;
 }
 
 /*about page base info styling*/
@@ -255,9 +260,7 @@ video {
     font-style: none;
 
 }
-.ans{
-    font-style: italic;
-}
+
 .link{
     text-decoration: underline;
     color: #1951a5;
@@ -320,7 +323,6 @@ video {
     width: 1050px;
     height: auto;
     position: relative;
-    font-style: italic;
     margin-top: 70px;
     padding: 20px;
 }
@@ -368,7 +370,6 @@ video {
     margin-left: 20px;
     margin-top: -500px;
     line-height: 40px;
-
 }
 .container-rlist{
     width: 1000px;
@@ -396,7 +397,7 @@ video {
     position: relative;
 }
 
-/*makes image slightly more opaque*/
+/*makes images slightly more opaque*/
 #kiwi-img, #fern-img, .overlay img{
     opacity: 90%;
 }
@@ -566,8 +567,7 @@ video {
   }
   
   /* Captions */
-  .text {
-    color: #f2f2f2;
+  .cptn-text {
     font-size: 30px;
     padding: 8px 10px;
     position: relative;
