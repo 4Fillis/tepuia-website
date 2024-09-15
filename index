@@ -42,6 +42,7 @@
                 <a href="carvingschools">Carving Schools</a>
             </li>
             <li>
+                <!-- dropdown button -->
                 <div class="dropdown">
                     <button class="dropbtn">More Info
                         <span class="icons drop-icon">

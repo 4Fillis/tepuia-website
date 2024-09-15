@@ -33,12 +33,17 @@ body{ /* set background color and font*/
 html, body {/*adds bounce effect at end of page*/
     overscroll-behavior: auto;
 }
-.inline-image, .vert-image, .overlay{
-    border: 2px solid var(--white);
+text{
+    text-decoration: none;
 }
 
 
 /* multipul selectors */
+
+.inline-image, .vert-image, .overlay{
+    border: 2px solid var(--white);
+}
+
 .dropbtn, .maintext, .infolist, .p, .a, .container-lhlf, .prev, .next, .dropdown-content a, .cptn-text
 .navbar, .dropdown, .dropdown-content, .navbar button, .navbar ul li a{
     color: var(--white);
@@ -48,7 +53,7 @@ html, body {/*adds bounce effect at end of page*/
     background: var(--darker-red);
 }
 /*makes font style italics*/
-.quote-text, .stat-text, #exp-text, .ans, .container-lhlf{
+.stat-text, #exp-text, .italic-t{
     font-style: italic;
 }
 /*padding*/
@@ -86,8 +91,13 @@ img{ /* ensure images dont stretch */
     max-height: 100%;
     max-width: 100%;
 }
+/*highlihgts section of text ot make it stand out*/
 .pop-text{
     background-color: #1951a5;
+}
+/*adds shadow around the container (no offset)*/
+.container-shadow, .container-header, button{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 ul{ /* keep list unstyled */
@@ -146,11 +156,11 @@ below is hover set up (change color wheh hovering)*/
     padding: 16px;
     font-size: 18px;
     border: none;
+    box-shadow: none !important;
 }
   
 .dropdown {
     display: inline-block;
-    
 }
   
 .dropdown-content {
@@ -264,15 +274,10 @@ video {
     font-size: 50px;
 }
 .infotitles{
-    color: aqua;
+    color: burlywood;
     font-style: none;
-
 }
 
-.link{
-    text-decoration: underline;
-    color: #1951a5;
-}
 .p{
     text-align: left;
     padding: 10px;
