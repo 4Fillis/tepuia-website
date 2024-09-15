@@ -61,7 +61,7 @@
 </nav>
     
 <!--main content of page-->
-<body style="background-image: url('images/outsideview.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
+<body style="background-image: url('images/tepuia-night.jpg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
 
     <div class="container-header header">
         <h1>About</h1>
@@ -71,10 +71,12 @@
     <div class="container-stat">
         <div class="container-lhlf">
             <p>Founded by Āpirana Ngata in 1963, Te Puia features dramatic geysers, bubbling mud, and beautiful native bush explored by our personalised guided tours. Te Puia is home to the New Zealand Māori Arts and Crafts Institute and offers a state-of-the-art Kiwi Conservation Centre, so you can get closer than ever before to New Zealand’s national treasure- the native Kiwi bird.
-            <br>For generations, Te Puia has welcomed manuhiri (visitors) from all over the world to explore the magic hidden within Te Whakarewarewa Thermal Valley during both the day and evening. <br>Nau mai, haere mai. We look forward to welcoming you.</p>
+            <br>For generations, Te Puia has welcomed manuhiri (visitors) from all over the world to explore the magic hidden within Te Whakarewarewa Thermal Valley during both the day and evening. <br>Nau mai, haere mai. We look forward to welcoming you.
+        </p>
         </div>
     </div>
-        <!--under header motto/vision & list of info-->
+
+    <!--under header motto/vision & list of info-->
         <div class="container-rlist">
             <div class="infolist">
                 <ul>
