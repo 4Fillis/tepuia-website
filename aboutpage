@@ -50,7 +50,6 @@
                     </button>
                     <div class="dropdown-content">
                       <a href="geothermal">Geothermal Valley</a>
-                      <a href="#">Mud Pools</a>
                       <a href="kiwiconservation">Kiwi Conservation</a>
                       <a href="experiances">Experiances</a>
                     </div>
@@ -114,6 +113,21 @@
             </div>
         </div>
 
+        <div class="left-ud">
+            <img src="images/nz-mapwhite.png" alt="nz map">
+        </div>
+
+        <div class="container-row-images">
+            <div class="container-row-images">
+                <div class="row-images" id=exp1><img src="images/nightgeyser.jpg" alt="nightgeyser"></div>
+                <div class="row-images" id=exp2><img src="images/haka-perf-tepuia.jpg" alt="haka performance"></div>
+                <div class="row-images" id=exp3><img src="images/whare-night.jpg" alt="whare, lit up"></div>
+                <div class="row-images" id=exp4><img src="images/tepuia-night.jpg" alt="te puia entrance"></div>
+                <div class="row-images" id=exp5><img src="images/blue-nightgeyser.jpg" alt="blue geyser/night"></div>
+                <div class="row-images" id=exp6><img src="images/whare-night.jpg" alt="whare, lit up"></div>
+            </div>
+        </div>
+
     <!-- footer -->
     <footer class="box-footer footer">
         <!-- footer content -->
@@ -128,14 +142,14 @@
             <br><i class="fa-solid fa-phone"></i> Phone: 07 348 9047
         </p>
         <!-- social media links -->
-        <p id="lg-txt">
+        <div class="lg-txt">
+            <p>
             <a href="https://www.instagram.com/te_puia/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
             <a href="https://www.youtube.com/channel/UCsmZvq3uW5Fuk9iyGkIeQlA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             <a href="https://twitter.com/Te_Puia/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
             <a href="https://www.facebook.com/tepuia.rotorua.nz/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-        <p>
-        <!-- footer content -->
-        <p>
-    </footer>
+            </p>
+        </div>
+    </footer>   
     </body>
 </html>

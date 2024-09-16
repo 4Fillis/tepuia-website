@@ -11,9 +11,6 @@
     --darker-red: #940909;
     --shaded-red: #a02020;
     --mid-red: #b82626;
-    --lighter-brown: #9b6b2c;
-    --darker-brown: #612e04;
-    --gray-color: #818181;
     --white: whitesmoke;
 }
 .bg-img{
@@ -35,21 +32,19 @@ html, body {/*adds bounce effect at end of page*/
     overscroll-behavior: auto;
 }
 
-/*footer styling*/
+/*footer styling, centered, infront*/
 .box-footer{
-    width: 40%;
+    width: 55%;
     height: auto;
-    background-color: cadetblue !important;
+    margin-left: 22.5% !important;
+    background-color: var(--darker-red) !important;
     z-index: 1;
 
 }
 .footer{
     text-align: center;
-    position: relative;
     margin-top: 50px !important;
     color: var(--white);
-    bottom: 0;
-    padding: 20px;
     font-size: 25px;
 }
 .footer a:hover{
@@ -87,7 +82,7 @@ text{
     font-style: italic;
 }
 /*padding*/
-.navbar, .container-header, .container-lhlf, .container-rlist, .row-images{
+.navbar, .container-header, .container-lhlf, .container-rlist, .row-images, .footer{
     padding: 20px;
 }
 /*position relitive (not absolute/fixed)*/
@@ -108,12 +103,12 @@ text{
 }
 
 /*margins 20px*/
-.container-header, .container-row-images, .vert-container, .vert-image, .container-rlist{
+.container-header, .container-row-images, .vert-container, .vert-image, .container-rlist, .footer{
     margin: 20px;
 }
 /*rounds corners*/
 .container-header, .container-hlf, .container-lhlf, .container-rlist, .container-ud, .container-lg, .container-lg img,
-.grid-btn, .inline-image, .vert-image{
+.grid-btn, .inline-image, .vert-image, .footer{
     border-radius: 20px;
 }
 
@@ -126,7 +121,7 @@ img{ /* ensure images dont stretch */
     background-color: #1951a5;
 }
 /*adds shadow around the container (no offset)*/
-.container-shadow, .container-header, button, .container-ud{
+.container-shadow, .container-header, button, .container-ud, .container-lhlf{
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -174,7 +169,6 @@ below is hover set up (change color wheh hovering)*/
 }
 .navbar ul li a i {
     margin-right: 11px;
-    align-items: center;
 }
 
 .navbar ul li:first-child a {
@@ -305,7 +299,6 @@ video {
 }
 .infotitles{
     color: burlywood;
-    font-style: none;
 }
 
 .p{
@@ -322,13 +315,19 @@ video {
     justify-content: flex-end;
     margin-right: 40px;
 }
+.left-ud{
+    display: flex;
+    justify-content: flex-start;
+    margin: -700px 120px 50px;
+    width: 40%;
+    height: auto;
+    background: none;
+}
 .moveup-520{
     top: 520px;
-    z-index: index 2;
 }
 .moveup{
     top: -400px;
-    z-index: index 2;
 }
 
 .indent{
@@ -339,7 +338,6 @@ video {
 .container-header{
     width: 700px;
     height: 250px;
-    border: 10px 70% 20px;
     background-color: rgba(126, 10, 10, 0.7);
     margin-top: 30px;
     text-align: left;
@@ -412,7 +410,6 @@ video {
 .container-lg{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: auto;
     max-width: 48%;
     height: fit-content;
@@ -485,7 +482,7 @@ video {
     margin-bottom: 100px;
 }
 /*keeps images within container and gets rid of stretch*/
-.container-lg img, .row-images img, .vert-image img, .inline-image{
+.container-lg img, .row-images img, .vert-image img, .inline-image, .left-ud{
     width: 100%;
     height: 100%;
     object-fit: cover;

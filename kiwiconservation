@@ -50,7 +50,6 @@
                     </button>
                     <div class="dropdown-content">
                       <a href="geothermal">Geothermal Valley</a>
-                      <a href="#">Mud Pools</a>
                       <a href="kiwiconservation">Kiwi Conservation</a>
                       <a href="experiances">Experiances</a>
                     </div>
@@ -124,27 +123,4 @@
         </div>
     </div>
 
-    <!-- footer -->
-    <footer class="box-footer footer">
-        <!-- footer content -->
-        <p>&copy; 2024 Te Puia | Rotorua Geothermal Park, Māori Cultural Center</p>
-        <p>
-            | <a href="aboutpage">About</a> |
-            <a href="https://www.tepuia.com" target="_blank">Offical website</a> |
-            <a href="https://maps.app.goo.gl/oJmHgA5ybUR1oru38" target="_blank">Map</a> |
-            <a href="https://www.tepuia.com/terms-and-conditions/" target="_blank">Terms and Conditions</a> |
-            <br><i class="fa-solid fa-location-dot"></i> Address: 20 Hemo Road, Whakarewarewa, Rotorua 3010
-            <br><i class="fa-solid fa-paper-plane"></i> Email: reservations@tepuia.com
-            <br><i class="fa-solid fa-phone"></i> Phone: 07 348 9047
-        </p>
-        <!-- social media links -->
-        <p id="lg-txt">
-            <a href="https://www.instagram.com/te_puia/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCsmZvq3uW5Fuk9iyGkIeQlA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://twitter.com/Te_Puia/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
-            <a href="https://www.facebook.com/tepuia.rotorua.nz/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-        <p>
-        <!-- footer content -->
-        <p>
-    </footer>
 </body>
