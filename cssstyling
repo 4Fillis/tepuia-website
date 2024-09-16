@@ -7,10 +7,8 @@
 
 /*sets colors as variable (makes easy to do same & change themes*/
 :root {
-    --bright-red: #e20c0c;
     --darker-red: #940909;
     --shaded-red: #a02020;
-    --mid-red: #b82626;
     --white: whitesmoke;
 }
 .bg-img{
@@ -103,7 +101,7 @@ text{
 }
 
 /*margins 20px*/
-.container-header, .container-row-images, .vert-container, .vert-image, .container-rlist, .footer{
+.container-header, .container-row-images, .vert-container, .vert-image, .container-rlist, .footer, #swirl-overlay{
     margin: 20px;
 }
 /*rounds corners*/
@@ -121,7 +119,7 @@ img{ /* ensure images dont stretch */
     background-color: #1951a5;
 }
 /*adds shadow around the container (no offset)*/
-.container-shadow, .container-header, button, .container-ud, .container-lhlf{
+.container-shadow, .container-header, button, .container-ud, .container-lhlf, .container-rlist, .row-images{
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -192,7 +190,7 @@ below is hover set up (change color wheh hovering)*/
     position: absolute;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px black;
-    background-color: var(--mid-red);
+    background-color: var(--shaded-red);
     z-index: 1;
 }
 /*for writing*/
@@ -502,16 +500,18 @@ video {
     margin-left: 30px;
     margin-right: 0px;
 }
+/* swirl overlay for breaking up containers*/
 #swirl-overlay{
     width: 100%;
     height: auto;
     background-repeat: repeat-x;
     background-size: auto;
     background-image: url(images/swirl-design.png);
-    
-    top: 10px;
+
+    top: 10px !important;
     right: 20px;
 }
+
 /*vertical cascading container images*/
 .vert-container {
     display: flex;
