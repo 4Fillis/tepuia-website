@@ -46,7 +46,7 @@
                 <div class="dropdown">
                     <button class="dropbtn">More Info
                         <span class="icons drop-icon">
-                            <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                            <i class="fa-solid fa-caret-left"></i>
                         </span>
                     </button>
                     <!--dropdown menu-->

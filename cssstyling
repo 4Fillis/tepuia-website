@@ -72,7 +72,7 @@ text{
     color: var(--white);
 }
 /* background colours*/
-.navbar, .dropbtn, .container-wide, .container-hlf, .rlist{
+.container-wide, .container-hlf, .rlist{
     background: var(--darker-red);
 }
 /*makes font style italics*/
@@ -119,7 +119,8 @@ img{ /* ensure images dont stretch */
     background-color: #1951a5;
 }
 /*adds shadow around the container (no offset)*/
-.container-shadow, .container-header, button, .container-ud, .container-lhlf, .container-rlist, .row-images{
+.container-shadow, .container-header, button, .container-ud, .container-lhlf, .container-rlist, .row-images, .vert-image,
+.container-hlf, .inline-image, .slideshow-container, .container-lg{
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -128,6 +129,19 @@ ul{ /* keep list unstyled */
 }
 
 /*navigation bar styling*/
+.navbar{
+    background-color: rgba(109, 109, 109, 0.1);
+    backdrop-filter: blur(5px);
+}
+/*dropdown button*/
+.dropbtn{
+    padding: 16px;
+    font-size: 18px;
+    background: none;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+}
 
 /* does spacing for the nav bar*/
 .navbar .container{
@@ -137,6 +151,8 @@ ul{ /* keep list unstyled */
 
 .logo{
     margin-left: 10px;
+    filter: invert(100%) brightness(200%);
+
 }
 /*nav bar for non-mobile goes horizonal (mainmenu)*/
 .navbar .main-menu ul{
@@ -156,10 +172,16 @@ below is hover set up (change color wheh hovering)*/
     transition: 0.5s;
     text-decoration: none;
 }
-.navbar ul li a:hover {
+
+.navbar ul li a:hover, .dropbtn:hover, .drop-icon:hover{
+    transition: 0.5s ease-in-out;
     color: black;
     cursor:grab;
 }
+/*icon rotation*/
+.dropdown:hover .drop-icon i {
+    transform: rotate(-90deg); 
+  }
 /*adds spacing in dropdown menu & home label*/
 .navbar ul li:last-child a {
     margin-top: 15px;
@@ -174,13 +196,6 @@ below is hover set up (change color wheh hovering)*/
 }
 
 /*dropdown menu styling*/
-.dropbtn {
-    padding: 16px;
-    font-size: 18px;
-    border: none;
-    box-shadow: none !important;
-}
-  
 .dropdown {
     display: inline-block;
 }
@@ -190,7 +205,8 @@ below is hover set up (change color wheh hovering)*/
     position: absolute;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px black;
-    background-color: var(--shaded-red);
+    background-color: rgba(109, 109, 109, 0.3);
+    backdrop-filter: blur(5px);
     z-index: 1;
 }
 /*for writing*/
@@ -199,12 +215,12 @@ below is hover set up (change color wheh hovering)*/
     text-decoration: none;
     display: block;
 }
-/*hovering on dropdown effects*/
-.dropdown-content a:hover {background-color: var(--shaded-red);}
+/*hovering on dropdown background color change*/
+.dropdown-content a:hover {background-color: var(--white);}
 
 .dropdown:hover .dropdown-content {display: block;}
   
-.dropdown:hover .dropbtn {background-color: var(--darker-red);}
+.dropdown:hover .dropbtn {background-color: var(--white);}
 
 /*hover*/
 ul li:hover ul.dropdown{
@@ -227,9 +243,6 @@ ul li ul.dropdown {
     right: -10px;
     transform: rotate(50deg);
     transition: 0.5s ease-in-out;
-}
-.drop-icon:hover {
-    transform: rotate(90deg);
 }
 
 /*video background styling*/

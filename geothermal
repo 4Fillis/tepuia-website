@@ -80,10 +80,10 @@
         <div class="maintext">
             <p>
                 <h3>Maori land story:<br></h3>
-                Our traditional Maori explanation of Te Whakarewarewa Geothermal Valley states that this place was one of the area’s ‘Te Pupu’ and ‘Te Hoata’, the Goddesses of Fire, emerged from the earth’s core while trying to find their brother Ngātoro-i-rangi, who was stranded on Mount Tongariro. As they rose to the surface looking for their brother, they left part of the fire they carried, creating geysers, hot springs and mud pools, creating the geothermal activity that remains today.
+                    Our traditional Maori explanation of Te Whakarewarewa Geothermal Valley states that this place was one of the area’s ‘Te Pupu’ and ‘Te Hoata’, the Goddesses of Fire, emerged from the earth’s core while trying to find their brother Ngātoro-i-rangi, who was stranded on Mount Tongariro. As they rose to the surface looking for their brother, they left part of the fire they carried, creating geysers, hot springs and mud pools, creating the geothermal activity that remains today.
                 <br><br>
                 <h3>Pohutu Geysey</h3>
-                Our main geyser is called “Pohutu” which means “Big splash” and erupts up to heights of 30 meters. Pohutu is semi-predictable, as she plays 15-20 minutes after another of our active geysers. According to Maori culture, geysers are viewed as gifts from the gods
+                    Our main geyser is called “Pohutu” which means “Big splash” and erupts up to heights of 30 meters. Pohutu is semi-predictable, as she plays 15-20 minutes after another of our active geysers. According to Maori culture, geysers are viewed as gifts from the gods
                 <br>To the left of Pohutu (when viewing from the bridge) is the “Prince of Wales Feathers” Geyser – named after Prince Edward Albert visited here in the 1900’s. It was traditionally named the “Tohu” or sign as it usually plays 10 mins before and then simultaneously with Pohutu and reaches heights of up to seven metres (almost 23 feet).
                 <br>The “Kererū” Geyser erupts every few days from the blackened crater closest to Puarenga Stream. The fan-shaped jet can reach heights of up to 15 metres (just over 49 feet). It is named after the New Zealand Pigeon.
                 <br>Geysers act like a giant pressure cooker on earth, shooting boiling water and steam into the air.
@@ -104,7 +104,7 @@
     </div>
 
     <!-- footer -->
-    <footer class="box-footer footer" id="footer-geopage">
+    <footer class="box-footer footer container-rlist">
         <!-- footer content -->
         <p>&copy; 2024 Te Puia | Rotorua Geothermal Park, Māori Cultural Center</p>
         <p>
