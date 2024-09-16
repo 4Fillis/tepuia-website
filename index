@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap&family=Poppins&display=swap" rel="stylesheet">
 
     <!--fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!--adds css-->
     <link rel="stylesheet" href="cssstyling">
     <!--logo icon (on tab)-->
@@ -60,13 +60,14 @@
         </ul>
     </div>
 </nav>
-<body>
+
     <section class="mainpg">
         <!--video for background-->
         <video autoplay muted loop>
             <source src="images/editedvid.mp4" type="video/mp4">
           </video>
-        </div>
+        
+        <!-- header -->
         <div class="container-header">
             <div class="header">
                 <h1>Te Puia</h1>
@@ -77,13 +78,23 @@
             <!--grid of buttons linking to other website pages-->
             <div class="grid-container">
                 <!--top row-->
-                <button class="grid-btn" style="background-image: url('images/te-puia-entrance.webp');"onclick="window.location.href='aboutpage';">About<br>Information - all you need to know</button>
-                <button class="grid-btn" style="background-image: url('images/flowers.jpg');" onclick="window.location.href='terito';">Te Rito <br>National Weaving School</button>
-                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');"onclick="window.location.href='carvingschools';">Carving <br>National Carving School</button>
+                <button class="grid-btn" style="background-image: url('images/te-puia-entrance.webp'); 
+                "onclick = "window.location.href='aboutpage';">About<br> Information - all you need to know</button>
+
+                <button class="grid-btn" style="background-image: url('images/flowers.jpg');" 
+                onclick = "window.location.href='terito';">Te Rito <br> National Weaving School</button>
+
+                <button class="grid-btn" style="background-image: url('images/mastercarver.jpg'); 
+                "onclick = "window.location.href='carvingschools';"> Carving <br>National Carving School</button>
                 <!--bottom row-->
-                <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg');"onclick="window.location.href='geothermalvalley';">Land <br>Geothermal Valley</button>
-                <button class="grid-btn" style="background-image: url('images/kiwionfern.png');"onclick="window.location.href='kiwiconservation';">Kiwi <br>Kiwi conservation at Te Puia</button>
-                <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');"onclick="window.location.href='experiances';">Experiances <br>Check out our experiances</button>
+                <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg'); 
+                "onclick = "window.location.href='geothermal';"> Land <br>Geothermal Valley</button>
+
+                <button class="grid-btn" style="background-image: url('images/kiwionfern.png'); 
+                "onclick = "window.location.href='kiwiconservation';"> Kiwi <br>Kiwi conservation at Te Puia</button>
+
+                <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg'); 
+                "onclick = "window.location.href='experiances';"> Experiances <br>Check out our experiances</button>
             </div>
         </div>
     </section>

@@ -1,3 +1,5 @@
+
+
 * { /*resets ensures padding&margins dont interfere
     with images and resets any added by default */
     box-sizing: border-box;
@@ -465,6 +467,9 @@ video {
     color: #fff;
     margin-left: 0px;
 }
+.grid-btn:hover {
+    transform: scale(1.05);
+  }
 /*experiances page row of images*/
 .container-row-images {
     width: 95%;

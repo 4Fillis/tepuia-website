@@ -1,30 +1,47 @@
-//resets slideindex to 1
-let slideIndex = 1;
-showSlides(slideIndex);
+//Javascript file
 
-// forward/back controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+(function () {
+  //strict helps catch common accidental coding errors
+    'use strict';
+    // resets slideshow to first image
+    let slideIndex = 1;
+  showSlides(slideIndex);
 
-// shows nth image of sequence
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+  // prev/back arrows
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  //shows nth image of sequence
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
 
 //function to change slide & dot indicator
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("slideshow");
-  let circleindicators = document.getElementsByClassName("circleindicator");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  function showSlides(n) {
+    const slides = document.getElementsByClassName("slideshow");
+    const circleIndicators = document.getElementsByClassName("circleindicator");
+
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    for (let i = 0; i < circleIndicators.length; i++) {
+      circleIndicators[i].className = circleIndicators[i].className.replace(" active", "");
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+    circleIndicators[slideIndex - 1].className += " active";
   }
-  for (i = 0; i < circleindicators.length; i++) {
-    circleindicators[i].className = circleindicators[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  circleindicators[slideIndex-1].className += " active";
-}
+
+  // expose functions to global scope (if needed)
+  window.plusSlides = plusSlides;
+  window.currentSlide = currentSlide;
+})();

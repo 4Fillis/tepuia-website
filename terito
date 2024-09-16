@@ -11,57 +11,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Pacifico&display=swap&family=Poppins&display=swap" rel="stylesheet">
 
     <!--fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!--adds css-->
     <link rel="stylesheet" href="cssstyling">
     <!--logo icon (on tab)-->
     <link rel="shortcut icon" href="images/tepuia-logo.svg" type="image/x-icon">
 </head> 
 
-<!--top bar, navigation setup-->
-<nav class="navbar">
-    <!--sets container class to prevent stretching when browser is extended-->
-    <div class="main-menu">
-        <!--list of pages in nav bar  -->
-        <ul>
-            <li class="logo-container logo">
-                <a href="index">
-                    <img src="images/tepuia-logo.svg" alt="logo">
-                </a>
-            </li>
-            <li>
-                <a href="index">Home</a>
-            </li>                
-            <li>
-                <a href="aboutpage">About</a>
-            </li>
-            <li>
-                <a href="terito">Te Rito</a>                    
-            </li>                
-            <li>
-                <a href="carvingschools">Carving Schools</a>
-            </li>
-            <li>
-                <div class="dropdown">
-                    <button class="dropbtn">More Info
-                        <span class="icons drop-icon">
-                            <i class="fa-solid fa-face-kiss-wink-heart"></i>
-                        </span>
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="geothermal">Geothermal Valley</a>
-                      <a href="kiwiconservation">Kiwi Conservation</a>
-                      <a href="experiances">Experiances</a>
-                    </div>
-                </div>  
-            </li>
-        </ul>
-    </div>
-</nav>
 
 <!--main content of page-->
 <body style="background-image: url('images/roomview.jpeg'); background-size: cover; background-position: left; background-repeat: no-repeat;">
 
+    <!--top bar, navigation setup-->
+    <nav class="navbar">
+        <!--sets container class to prevent stretching when browser is extended-->
+        <div class="main-menu">
+            <!--list of pages in nav bar  -->
+            <ul>
+                <li class="logo-container logo">
+                    <a href="index">
+                        <img src="images/tepuia-logo.svg" alt="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="index">Home</a>
+                </li>                
+                <li>
+                    <a href="aboutpage">About</a>
+                </li>
+                <li>
+                    <a href="terito">Te Rito</a>                    
+                </li>                
+                <li>
+                    <a href="carvingschools">Carving Schools</a>
+                </li>
+                <li>
+                    <!-- dropdown button -->
+                    <div class="dropdown">
+                        <button class="dropbtn">More Info
+                            <span class="icons drop-icon">
+                                <i class="fa-solid fa-caret-left"></i>
+                            </span>
+                        </button>
+                        <!--dropdown menu-->
+                        <div class="dropdown-content">
+                          <a href="geothermal">Geothermal Valley</a>
+                          <a href="kiwiconservation">Kiwi Conservation</a>
+                          <a href="experiances">Experiances</a>
+                        </div>
+                    </div>  
+                </li>
+            </ul>
+        </div>
+    </nav>
     
     <div class="container-header header">
         <h1>Te Rito</h1>
@@ -74,19 +76,19 @@
         <!-- Full-width images with number and caption text -->
         <div class="slideshow fade">
           <div class="numbertext">1 / 3</div>
-          <img src="images/shouldercloak.jpg" style="width:100%">
+          <img src="images/shouldercloak.jpg" alt="woven cloak on model bust" style="width:100%">
           <div class="cptn-text">Kākahu</div>
         </div>
       <!--image number based off images in order-->
         <div class="slideshow fade">
           <div class="numbertext">2 / 3</div>
-          <img src="images/coolredweaving.jpg" style="width:100%">
+          <img src="images/coolredweaving.jpg" alt="red lit woven puipui" style="width:100%">
           <div class="cptn-text">Piupiu</div>
         </div>
       
         <div class="slideshow fade">
           <div class="numbertext">3 / 3</div>
-          <img src="images/verysnazzybags.jpg" style="width:100%">
+          <img src="images/verysnazzybags.jpg" alt="woven kate/bags" style="width:100%">
           <div class="cptn-text">Woven Kete</div>
         </div>
       
