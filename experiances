@@ -88,37 +88,43 @@
                 Here at Te Puia we offer a diverse range of experiances with something to suit everyone.
                 <br>Witniss the wonders of Te Whakarewarewa Thermal Valley including Pōhutu Geyser, the <span class="pop-text">Southern Hemispheres largest natural geyser</span> erupting over fifteen times a day.
                 <br>To learn more and book your adventure, visit <a href="https://www.tepuia.com/experiences/" target="_blank">here!</a>
+                <br><br>
             </p>
-            <h1>We have six experiances availiable:</h1>
-            <ul>
-                <li>
-                    <h2>Te Rā Guided Experience</h2>
-                    <p>Incredible world-class giuded experiance</p>
-                </li>
-                <li>
-                    <h2>Te Rā + Haka combo</h2>
-                    <p>All the above and witniss a live cultural performance</p>
-                </li>
-                <li>
-                    <h2>Te Pō</h2>
-                    <p>Haka and delicious buffet dinner</p>
-                </li>
-                <li>
-                    <h2>Te Pō Combo</h2>
-                    <p>Haka, Guided experiance, and Buffet dinner. </p>
-                </li>
-                <li>
-                    <h2>Night Geyser</h2>
-                    <p>Witniss Rototuas geothermal wonders lit up</p>
-                </li>
-                <li>
-                    <h2>Whanau Card</h2>
-                    <p>Join Te Puias legacy</p>
-                </li>
-            </ul>
-        </div>
+            <h1>    We have six experiances availiable:</h1>
 
+            <!-- grid container of experiances -->
+            <div class="grid-container">
+                <!--top row-->
+                <button class="grid-btn" style="background-image: url('images/te-puia-entrance.webp');" onclick="window.location.href='aboutpage';">
+                    <h2>Te Rā Guided Experience</h2><br>Incredible world-class giuded experiance
+                  </button>
+                  
+                  <button class="grid-btn" style="background-image: url('images/flowers.jpg');" onclick="window.location.href='terito';">
+                    <h2>Te Rā + Haka combo</h2>Te Rā + witniss a live cultural performance
+                  </button>
+                  
+                  <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');" onclick="window.location.href='carvingschools';">
+                    <h2>Te Pō</h2>Haka, Guided experiance, and Buffet dinner
+                  </button>
+                  
+                  <!--bottom row-->
+                  <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg');" onclick="window.location.href='geothermal';">
+                    <h2>Te Pō Combo</h2>Haka and delicious buffet dinner
+                  </button>
+                  
+                  <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg');" onclick="window.location.href='geothermal';">
+                    <h2>Night Geyser</h2>Witniss Rototuas geothermal wonders lit up
+                  </button>
+                  
+                  <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');" onclick="window.location.href='experiances';">
+                    <h2>Whanau Card</h2>Join Te Puias legacy
+                  </button>
+                  
+          
+            </div>
+        </div>
     </div>
+    
 
     <!-- footer -->
     <footer class="box-footer footer">

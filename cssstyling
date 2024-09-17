@@ -204,12 +204,15 @@ below is hover set up (change color wheh hovering)*/
   
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: absolute !important;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px black;
     background-color: rgba(109, 109, 109, 0.3);
     backdrop-filter: blur(5px);
-    z-index: 9999 !important;
+}
+
+.dropdown{
+    z-index: 9999;
 }
 /*for writing*/
 .dropdown-content a {
@@ -220,7 +223,9 @@ below is hover set up (change color wheh hovering)*/
 /*hovering on dropdown background color change*/
 .dropdown-content a:hover {background-color: var(--white);}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
   
 .dropdown:hover .dropbtn {background-color: var(--white);}
 
@@ -253,14 +258,16 @@ video {
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    z-index:-1;
+    z-index: -5;
   }
 
 /*Utility classes - text*/
 .navbar, .maintext, .body, .infolist, .container-lhlf, .container-ud, .container-rlist, .stat-text, .dropbtn, .dropdown-content{
     font-family: 'roboto', 'monospace';
 }
-
+#mainpg-nav{
+    background-color: var(--darker-red) !important;
+}
 .header{
     text-align: left;
     color: #fff;
@@ -373,6 +380,7 @@ video {
     width: 1050px;
     height: auto;
     margin-top: 70px;
+    z-index: -2;
 }
 
 .container-quote, .container-stat{
@@ -383,6 +391,7 @@ video {
     right: 50px;
     text-align: right;
     padding-left: 40%;
+    z-index: -4 !important;
 }
 
 .container-topright{
@@ -630,7 +639,7 @@ video {
     background-color: #a71313;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.3s ease;
     padding-top: -10px;
   }
   

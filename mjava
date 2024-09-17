@@ -1,4 +1,6 @@
 //Javascript file
+/* jshint esversion: 6 */
+
 
 (function () {
   //strict helps catch common accidental coding errors
