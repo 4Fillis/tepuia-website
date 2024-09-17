@@ -95,7 +95,7 @@
             <!-- grid container of experiances -->
             <div class="grid-container greyscale">
                 <!--top row-->
-                <button class="grid-btn" style="background-image: url('images/coolredweaving.jpg');" onclick="window.location.href='https://tinyurl.com/teraexperiance;">
+                <button class="grid-btn" style="background-image: url('images/coolredweaving.jpg');" onclick="window.location.href='https://tinyurl.com/teraexperiance';">
                     <h2>Te Rā Guided Experience</h2><br>Incredible world-class giuded experiance
                   </button>
                   
