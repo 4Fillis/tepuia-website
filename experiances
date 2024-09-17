@@ -93,30 +93,30 @@
             <h1>    We have six experiances availiable:</h1>
 
             <!-- grid container of experiances -->
-            <div class="grid-container">
+            <div class="grid-container greyscale">
                 <!--top row-->
-                <button class="grid-btn" style="background-image: url('images/te-puia-entrance.webp');" onclick="window.location.href='aboutpage';">
+                <button class="grid-btn" style="background-image: url('images/coolredweaving.jpg');" onclick="window.location.href='https://tinyurl.com/teraexperiance;">
                     <h2>Te Rā Guided Experience</h2><br>Incredible world-class giuded experiance
                   </button>
                   
-                  <button class="grid-btn" style="background-image: url('images/flowers.jpg');" onclick="window.location.href='terito';">
+                  <button class="grid-btn" style="background-image: url('images/haka-perf-tepuia.jpg');" onclick="window.location.href='https://tinyurl.com/rahakacombo';">
                     <h2>Te Rā + Haka combo</h2>Te Rā + witniss a live cultural performance
                   </button>
                   
-                  <button class="grid-btn" style="background-image: url('images/mastercarver.jpg');" onclick="window.location.href='carvingschools';">
+                  <button class="grid-btn" style="background-image: url('images/fired-woodcarving.jpeg');" onclick="window.location.href='https://tinyurl.com/tepolink';">
                     <h2>Te Pō</h2>Haka, Guided experiance, and Buffet dinner
                   </button>
                   
                   <!--bottom row-->
-                  <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg');" onclick="window.location.href='geothermal';">
+                  <button class="grid-btn" style="background-image: url('images/dining hall.jpg');" onclick="window.location.href='https://tinyurl.com/tepocombo';">
                     <h2>Te Pō Combo</h2>Haka and delicious buffet dinner
                   </button>
                   
-                  <button class="grid-btn" style="background-image: url('images/nightgeyser.jpg');" onclick="window.location.href='geothermal';">
+                  <button class="grid-btn" style="background-image: url('images/blue-nightgeyser.jpg');" onclick="window.location.href='https://tinyurl.com/nightgeyser';">
                     <h2>Night Geyser</h2>Witniss Rototuas geothermal wonders lit up
                   </button>
                   
-                  <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');" onclick="window.location.href='experiances';">
+                  <button class="grid-btn" style="background-image: url('images/tepuia-night.jpg');" onclick="window.location.href='https://www.tepuia.com/whanau-card/';">
                     <h2>Whanau Card</h2>Join Te Puias legacy
                   </button>
                   

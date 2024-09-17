@@ -118,7 +118,7 @@ img{ /* ensure images dont stretch */
 }
 /*highlihgts section of text ot make it stand out*/
 .pop-text{
-    background-color: #1951a5;
+    background-color: rgba(126, 10, 10, 0.7)
 }
 /*adds shadow around the container (no offset)*/
 .container-shadow, .container-header, button, .container-ud, .container-lhlf, .container-rlist, .row-images, .vert-image,
@@ -477,7 +477,12 @@ video {
 }
 .grid-btn:hover {
     transform: scale(1.05);
-  }
+}
+/*for experiances page, greyscale*/
+.greyscale{
+    filter: grayscale(30%) ;
+}
+
 /*experiances page row of images*/
 .container-row-images {
     width: 95%;
@@ -636,7 +641,7 @@ video {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #a71313;
+    background-color: var(--darker-red);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.3s ease;
@@ -644,7 +649,7 @@ video {
   }
   
   .active, .circleindicator:hover {
-    background-color: #770d0d;
+    background-color: var(--white);
   }
   
   /* Fading animation */
