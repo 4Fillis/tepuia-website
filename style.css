@@ -268,6 +268,9 @@ video {
 #mainpg-nav{
     background-color: var(--darker-red) !important;
 }
+#geo-nav{
+    background-color: rgba(142, 69, 69, 0.8);
+}
 .header{
     text-align: left;
     color: #fff;
